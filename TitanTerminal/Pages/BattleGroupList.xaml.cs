@@ -1,17 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using TitanTerminal.Contracts;
 using Xamarin.Forms;
 
-namespace TitanTerminal
+namespace TitanTerminal.Pages
 {
-    public partial class MainPage : ContentPage
+    public partial class BattleGroupList : ContentPage
     {
-        public MainPage()
+        public BattleGroupList()
         {
             InitializeComponent();
+            Title = "AVAILABLE BATTLEGROUPS";
         }
+
         protected override async void OnAppearing()
         {
             base.OnAppearing();
@@ -21,16 +24,8 @@ namespace TitanTerminal
         async void FileSelect(object sender, SelectedItemChangedEventArgs args)
         {
             if (args.SelectedItem == null) return;
-            // получаем выделенный элемент
-            string filename = (string)args.SelectedItem;
-            /*
-            // загружем текст в текстовое поле
-            textEditor.Text = await DependencyService.Get<IFileHelper>().LoadTextAsync((string)args.SelectedItem);
-            // устанавливаем название файла
-            fileNameEntry.Text = filename;
-            */
 
-            // Load file content
+            // Load file content of selected file
             var battleGroupContent = await DependencyService.Get<IFileHelper>().LoadTextAsync((string)args.SelectedItem);
             var battleGroupXml = XDocument.Parse(battleGroupContent);
 
@@ -38,13 +33,14 @@ namespace TitanTerminal
             filesList.SelectedItem = null;
 
             // Open BattleGroup Page
-
+            await Navigation.PushAsync(new BattleGroup(battleGroupXml));
 
         }
 
         // обновление списка файлов
         async Task UpdateFileList()
         {
+            var q = await DependencyService.Get<IFileHelper>().GetFilesAsync();
             // получаем все файлы
             filesList.ItemsSource = await DependencyService.Get<IFileHelper>().GetFilesAsync();
             // снимаем выделение

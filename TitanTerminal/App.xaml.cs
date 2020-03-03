@@ -1,4 +1,5 @@
 ﻿using System;
+using TitanTerminal.Pages;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace TitanTerminal
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new BattleGroupList());
         }
 
         protected override void OnStart()

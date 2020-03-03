@@ -1,0 +1,1696 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="c746-1fbc-fbff-b688" name="New Roster" battleScribeVersion="2.03" gameSystemId="975a-00f4-df37-b565" gameSystemName="Adeptus Titanicus 2018" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costs>
+    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="2055.0"/>
+  </costs>
+  <forces>
+    <force id="f33f-4a20-0a4b-6bc4" name="Battlegroup" entryId="d377-9ed7-0d3e-7f70" catalogueId="7c04-d50d-bc70-52f3" catalogueRevision="2" catalogueName="Battlegroup">
+      <selections>
+        <selection id="8aae-7c12-0208-c15b" name="Axiom Battleline Maniple" entryId="d63c-4bb8-d8a9-b777::3ca3-42a8-26bb-5676" publicationId="975a-00f4-pubN65537" page="57" number="1" type="unit">
+          <rules>
+            <rule id="d63c-4bb8-d8a9-b777::a8ff-f985-efc4-9160" name="Might of the Omnissiah" publicationId="975a-00f4-pubN65537" page="57" hidden="false">
+              <description>If a Titan from this maniple fails a Command check when an order is issued to it in the Issue Orders step of the Strategy phase, orders can still be issued to the rest of the Titans in the maniple. Command checks must still be made for each.</description>
+            </rule>
+          </rules>
+          <selections>
+            <selection id="f77a-745f-0c1c-c284" name="Reaver Titan" entryId="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::9ff1-81bc-203d-620c" number="1" type="model">
+              <profiles>
+                <profile id="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::7ff1-9cf5-3d51-6ff7" name="Reaver Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+                  <characteristics>
+                    <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">6&quot;/9&quot;</characteristic>
+                    <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">4+</characteristic>
+                    <characteristic name="Ballistic Skill" typeId="f14c-a692-0b4a-c510">3+</characteristic>
+                    <characteristic name="Weapon Skill" typeId="935c-7d79-d2fe-dcf8">4+</characteristic>
+                    <characteristic name="Manuever" typeId="d9fc-a9ed-b5ab-e97c">2/3</characteristic>
+                    <characteristic name="Servitor Clades" typeId="a877-9231-f92a-5538">3</characteristic>
+                    <characteristic name="Scale" typeId="5359-4d2b-082b-546a">8</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="a92b-91e0-050b-ca0f" name="Body" entryId="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::1dcd-1615-5634-3ac7" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::405a-e1d7-49d0-4548" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                      <characteristics>
+                        <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-13</characteristic>
+                        <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-16</characteristic>
+                        <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">17+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections>
+                    <selection id="5cf6-69a0-f019-3368" name="⦿⦾⦾⦾⦾⦾⦾(1)" entryId="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::59bd-5186-d156-7809" entryGroupId="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::9ea5-7d31-c03a-5d16" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::6958-b016-77e8-c29b" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                          <characteristics>
+                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="7dd5-aadc-3eaa-1d45" name="Head" entryId="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::e785-b175-8850-4890" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::61cc-c41e-f222-a03c" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                      <characteristics>
+                        <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">10-12</characteristic>
+                        <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
+                        <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">15+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections>
+                    <selection id="a4a5-4c8f-6d91-1c69" name="⦿⦾⦾⦾⦾⦾(1)" entryId="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::7b4b-c92a-0650-3ba2" entryGroupId="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::a049-0f1c-59f2-59f9" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::5238-3213-ec28-3811" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                          <characteristics>
+                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="53a2-8d2d-1cd8-60b7" name="Legs" entryId="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::de93-8bdc-dd8d-3c91" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::59c9-6941-5ea7-8ecb" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                      <characteristics>
+                        <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-12</characteristic>
+                        <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
+                        <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">15+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections>
+                    <selection id="cd86-9be9-fc4f-a9bf" name="⦿⦾⦾⦾⦾⦾⦾(1)" entryId="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::99b4-2e5d-ce48-cf2a" entryGroupId="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::2736-f5dc-9b2a-8866" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::32e4-fc75-274e-f3ff" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                          <characteristics>
+                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="d5d5-fc1b-14c7-d1e1" name="Void Shields" entryId="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::ca96-66a7-2466-4553" number="1" type="upgrade">
+                  <selections>
+                    <selection id="5f2c-3007-9143-70a7" name="Void Shield (3+) ⦿⦾⦾⦾⦾" entryId="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::052b-4a86-88ac-055c::e7f3-4f09-8dc2-5b18" entryGroupId="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::71a5-9388-870c-25e1" number="1" type="upgrade">
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="4683-eaca-7ecd-733c" name="Plasma Reactor" entryId="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::5c91-fa9e-ab6b-d54c" number="1" type="upgrade">
+                  <selections>
+                    <selection id="fd2c-af03-2cfb-4b1f" name="⦿⦾⦾⦾⦾⦾ Green(1)" entryId="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::0822-47ae-0621-86a4" entryGroupId="d63c-4bb8-d8a9-b777::228f-f7a7-d85a-c515::9bdf-f064-c87f-19ce" number="1" type="upgrade">
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="250.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="118f-9949-7f70-e969" name="Titan" entryId="3f71-3a59-3b75-4ecf" primary="false"/>
+                <category id="925a-a5b8-57e4-06ca" name="ReaverTitan" entryId="d36f-5e44-2150-3428" primary="true"/>
+              </categories>
+            </selection>
+            <selection id="b71c-9c5b-0f89-8bf9" name="Warlord Titan" entryId="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::5122-cb02-8703-ce88" number="1" type="model">
+              <profiles>
+                <profile id="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::f4bc-0277-b973-df55" name="Warlord Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+                  <characteristics>
+                    <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">4&quot;/6&quot;</characteristic>
+                    <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">3+</characteristic>
+                    <characteristic name="Ballistic Skill" typeId="f14c-a692-0b4a-c510">3+</characteristic>
+                    <characteristic name="Weapon Skill" typeId="935c-7d79-d2fe-dcf8">5+</characteristic>
+                    <characteristic name="Manuever" typeId="d9fc-a9ed-b5ab-e97c">1/2</characteristic>
+                    <characteristic name="Servitor Clades" typeId="a877-9231-f92a-5538">4</characteristic>
+                    <characteristic name="Scale" typeId="5359-4d2b-082b-546a">10</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="b3bd-8c57-642e-b8fa" name="Body" entryId="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::b743-b038-6f73-515a" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::d37e-6c0b-a6ec-809a" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                      <characteristics>
+                        <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">12-13</characteristic>
+                        <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
+                        <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">16+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections>
+                    <selection id="4786-3ca3-e0c1-2683" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" entryId="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::e562-dc55-06b1-9ac7" entryGroupId="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::1b3e-c78e-e4d9-c2ef" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::a323-7e80-9040-bf45" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                          <characteristics>
+                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="c45f-e03c-df5f-3920" name="Head" entryId="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::781d-322e-2d97-9cdc" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::4ceb-539b-4d65-8113" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                      <characteristics>
+                        <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">12-13</characteristic>
+                        <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
+                        <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">17+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections>
+                    <selection id="6dc1-4933-e185-aa93" name="⦿⦾⦾⦾⦾⦾⦾(1)" entryId="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::47fe-9aed-faad-538e" entryGroupId="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::436f-a436-9bad-a8f3" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::3661-ce55-e831-2aa4" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                          <characteristics>
+                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="f0ca-1198-590a-706c" name="Legs" entryId="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::f42b-6054-3a6a-35a0" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::4071-c5a4-5ac7-2b85" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                      <characteristics>
+                        <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">13-14</characteristic>
+                        <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">15-16</characteristic>
+                        <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">17+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections>
+                    <selection id="113a-b56c-32dd-4669" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" entryId="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::dbb9-4a9e-75b9-cc09" entryGroupId="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::0e14-822b-8f3c-61e3" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::726b-c370-f63b-e41f" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                          <characteristics>
+                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="a185-6ba5-7601-2746" name="Void Shields" entryId="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::a1f0-d644-e812-a244" number="1" type="upgrade">
+                  <selections>
+                    <selection id="ecd9-e5e0-815f-6379" name="Void Shield (3+) ⦿⦾⦾⦾⦾⦾" entryId="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::8e67-15f3-cc86-e5cd::e7f3-4f09-8dc2-5b18" entryGroupId="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::40e8-5105-f3b8-40a9" number="1" type="upgrade">
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="2190-0326-12a4-f6d9" name="Plasma Reactor" entryId="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::eca7-019e-997f-88e2" number="1" type="upgrade">
+                  <selections>
+                    <selection id="3dfc-9cb5-75e0-be65" name="⦿⦾⦾⦾⦾⦾⦾ Green(1)" entryId="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::b63f-68eb-52c0-a02f" entryGroupId="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::5be1-a81f-984c-f327" number="1" type="upgrade">
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="bd53-0b28-3ebb-d7fc" name="Ardex Defensor Cannon" entryId="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::0c27-288f-504a-2110::ebc6-2029-ceb3-f43b" entryGroupId="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::2c49-32dd-c032-07ff" number="1" type="upgrade">
+                  <rules>
+                    <rule id="d63c-4bb8-d8a9-b777::430c-0860-5432-11ea::0c27-288f-504a-2110::4a77-f09b-b59f-6651" name="Ardex Defensor Cannon" hidden="false">
+                      <description>When the Titan is activated in the Combat phase, each enemy unit that is within its Front or Rear arc, and within 6&quot;, suffers D3 Strength 5 hits.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="385.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="ef3a-a698-7921-a45c" name="Titan" entryId="3f71-3a59-3b75-4ecf" primary="false"/>
+                <category id="8454-fb66-3cd2-137b" name="WarlordTitan" entryId="7103-9316-d4a5-8caa" primary="true"/>
+              </categories>
+            </selection>
+            <selection id="86c5-320f-13b7-b362" name="Warhound Titan" entryId="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::3ad7-cd10-8d6e-8c2e" number="1" type="model">
+              <profiles>
+                <profile id="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::6a50-23dd-224f-f8c3" name="Warhound Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+                  <characteristics>
+                    <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">8&quot;/12&quot;</characteristic>
+                    <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">5+</characteristic>
+                    <characteristic name="Ballistic Skill" typeId="f14c-a692-0b4a-c510">3+</characteristic>
+                    <characteristic name="Weapon Skill" typeId="935c-7d79-d2fe-dcf8">4+</characteristic>
+                    <characteristic name="Manuever" typeId="d9fc-a9ed-b5ab-e97c">3/5</characteristic>
+                    <characteristic name="Servitor Clades" typeId="a877-9231-f92a-5538">2</characteristic>
+                    <characteristic name="Scale" typeId="5359-4d2b-082b-546a">6</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="fef7-b5a1-62c2-4370" name="Body" entryId="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::2e08-5e77-3e6c-0875" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::9e1c-94e5-7c27-b887" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                      <characteristics>
+                        <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">10-11</characteristic>
+                        <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">12-13</characteristic>
+                        <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">14+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections>
+                    <selection id="f277-ac31-ad0d-64ca" name="⦿⦾⦾⦾⦾⦾(1)" entryId="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::f11f-d438-e068-55b0" entryGroupId="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::6af1-2245-c637-6ede" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::87e2-3a49-fab7-bd12" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                          <characteristics>
+                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="8153-2e2f-faed-7d36" name="Legs" entryId="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::713c-28fb-4137-ebaa" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::d0bc-768d-a5e6-0860" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                      <characteristics>
+                        <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">10-12</characteristic>
+                        <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
+                        <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">15+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections>
+                    <selection id="b5bf-bb88-6d71-d055" name="⦿⦾⦾⦾⦾⦾(1)" entryId="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::d606-2a1c-8c9c-5471" entryGroupId="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::9f02-2f8d-abb8-3805" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::5249-a13b-4fe1-91d7" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                          <characteristics>
+                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="5987-340d-7473-879b" name="Head" entryId="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::9ac5-a8f1-414a-71f6" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::7813-edce-26c0-de80" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                      <characteristics>
+                        <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-13</characteristic>
+                        <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
+                        <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">16+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections>
+                    <selection id="d6d9-b9b1-8029-d711" name="⦿⦾⦾⦾⦾(1)" entryId="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::3271-618c-4f38-ecc0" entryGroupId="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::54e3-a1e1-034a-f2c2" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::95d4-96cf-8696-9dc0" name="⦿⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                          <characteristics>
+                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="04cd-0efd-506e-7a9e" name="Void Shields" entryId="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::33bf-049a-2e61-89c2" number="1" type="upgrade">
+                  <selections>
+                    <selection id="c438-d6c3-c0e8-90b6" name="Void Shield (3+) ⦿⦾⦾⦾" entryId="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::b3cb-9e84-6181-37dd::e7f3-4f09-8dc2-5b18" entryGroupId="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::74ac-8b96-f42c-3a28" number="1" type="upgrade">
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="bbda-1241-78ce-c228" name="Plasma Reactor" entryId="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::e9f6-5f0a-f3a7-456b" number="1" type="upgrade">
+                  <selections>
+                    <selection id="b0f0-0ab9-c58c-ddfb" name="⦿⦾⦾⦾⦾ Green(1)" entryId="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::796b-1378-14f8-3eb3" entryGroupId="d63c-4bb8-d8a9-b777::6922-4409-37e6-3201::a729-d6f9-299f-a129" number="1" type="upgrade">
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="180.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="4bec-92d9-ca17-6185" name="Titan" entryId="3f71-3a59-3b75-4ecf" primary="false"/>
+                <category id="02bb-9ba7-bbfe-2bd6" name="WarhoundTitan" entryId="223f-6e71-9e4f-939e" primary="true"/>
+              </categories>
+            </selection>
+            <selection id="1ef5-396c-0f92-84fe" name="Titan Legion" entryId="d63c-4bb8-d8a9-b777::2dc6-c52e-3efc-5e21::6202-19dc-f26f-9b64" number="1" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="98f9-d533-e363-d5d1" name="Titan Legion" entryId="d204-9898-0ffb-02f4" primary="true"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="3dbf-802e-e991-b2b7" name="Maniple" entryId="6982-2d18-55cb-61e5" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="3fe1-3ed1-e991-2f40" name="Lupercal Light Maniple" entryId="7e16-91e5-f646-3e5e::26ca-c6f5-04b3-10c1" publicationId="975a-00f4-pubN87630" page="66" number="1" type="unit">
+          <rules>
+            <rule id="7e16-91e5-f646-3e5e::6068-bc44-f6a2-c418" name="Hunting Pack" publicationId="975a-00f4-pubN87630" page="66" hidden="false">
+              <description>Working closely together, the Warhound Titans can surround and pick off foes many times their size. At the beggining of each round, any or all of the Warhounds within the maniple may be formed into a Squadron with other members of their maniple. These squadrons last until the end of the round. In addition, when making Coordinated Strikes (see p.45 of the AT2018 Rulebook), Warhounds in this maniple add +2 to any Armour rolls they make, rather than +1.</description>
+            </rule>
+          </rules>
+          <selections>
+            <selection id="a2ab-0d0d-80b7-3e7f" name="Warhound Titan" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::3ad7-cd10-8d6e-8c2e" number="1" type="model">
+              <profiles>
+                <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::6a50-23dd-224f-f8c3" name="Warhound Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+                  <characteristics>
+                    <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">8&quot;/12&quot;</characteristic>
+                    <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">5+</characteristic>
+                    <characteristic name="Ballistic Skill" typeId="f14c-a692-0b4a-c510">3+</characteristic>
+                    <characteristic name="Weapon Skill" typeId="935c-7d79-d2fe-dcf8">4+</characteristic>
+                    <characteristic name="Manuever" typeId="d9fc-a9ed-b5ab-e97c">3/5</characteristic>
+                    <characteristic name="Servitor Clades" typeId="a877-9231-f92a-5538">2</characteristic>
+                    <characteristic name="Scale" typeId="5359-4d2b-082b-546a">6</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="b8a1-34b0-0513-a95d" name="Body" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::2e08-5e77-3e6c-0875" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::9e1c-94e5-7c27-b887" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                      <characteristics>
+                        <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">10-11</characteristic>
+                        <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">12-13</characteristic>
+                        <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">14+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections>
+                    <selection id="3e39-7695-9375-ff2d" name="⦿⦾⦾⦾⦾⦾(1)" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::f11f-d438-e068-55b0" entryGroupId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::6af1-2245-c637-6ede" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::87e2-3a49-fab7-bd12" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                          <characteristics>
+                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="b3bd-b35a-34da-8aad" name="Legs" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::713c-28fb-4137-ebaa" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::d0bc-768d-a5e6-0860" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                      <characteristics>
+                        <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">10-12</characteristic>
+                        <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
+                        <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">15+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections>
+                    <selection id="cf21-eebe-4ff5-4478" name="⦿⦾⦾⦾⦾⦾(1)" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::d606-2a1c-8c9c-5471" entryGroupId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::9f02-2f8d-abb8-3805" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::5249-a13b-4fe1-91d7" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                          <characteristics>
+                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="a177-e28b-c731-be6d" name="Head" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::9ac5-a8f1-414a-71f6" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::7813-edce-26c0-de80" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                      <characteristics>
+                        <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-13</characteristic>
+                        <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
+                        <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">16+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections>
+                    <selection id="a0f8-a10b-7be3-4bde" name="⦿⦾⦾⦾⦾(1)" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::3271-618c-4f38-ecc0" entryGroupId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::54e3-a1e1-034a-f2c2" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::95d4-96cf-8696-9dc0" name="⦿⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                          <characteristics>
+                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="6853-ef58-495b-e86d" name="Void Shields" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::33bf-049a-2e61-89c2" number="1" type="upgrade">
+                  <selections>
+                    <selection id="6a1d-0976-9a4f-645c" name="Void Shield (3+) ⦿⦾⦾⦾" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::b3cb-9e84-6181-37dd::e7f3-4f09-8dc2-5b18" entryGroupId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::74ac-8b96-f42c-3a28" number="1" type="upgrade">
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="536e-bd59-2da1-586d" name="Plasma Reactor" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::e9f6-5f0a-f3a7-456b" number="1" type="upgrade">
+                  <selections>
+                    <selection id="da7f-dae0-634e-a7e0" name="⦿⦾⦾⦾⦾ Green(1)" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::796b-1378-14f8-3eb3" entryGroupId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::a729-d6f9-299f-a129" number="1" type="upgrade">
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="180.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="7178-169d-5ae6-2d53" name="Titan" entryId="3f71-3a59-3b75-4ecf" primary="false"/>
+                <category id="acbc-1e8a-995f-b4aa" name="WarhoundTitan" entryId="223f-6e71-9e4f-939e" primary="true"/>
+              </categories>
+            </selection>
+            <selection id="cd18-c92e-28dd-e1fe" name="Warhound Titan" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::3ad7-cd10-8d6e-8c2e" number="1" type="model">
+              <profiles>
+                <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::6a50-23dd-224f-f8c3" name="Warhound Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+                  <characteristics>
+                    <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">8&quot;/12&quot;</characteristic>
+                    <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">5+</characteristic>
+                    <characteristic name="Ballistic Skill" typeId="f14c-a692-0b4a-c510">3+</characteristic>
+                    <characteristic name="Weapon Skill" typeId="935c-7d79-d2fe-dcf8">4+</characteristic>
+                    <characteristic name="Manuever" typeId="d9fc-a9ed-b5ab-e97c">3/5</characteristic>
+                    <characteristic name="Servitor Clades" typeId="a877-9231-f92a-5538">2</characteristic>
+                    <characteristic name="Scale" typeId="5359-4d2b-082b-546a">6</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="63bd-b3c8-a685-c713" name="Body" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::2e08-5e77-3e6c-0875" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::9e1c-94e5-7c27-b887" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                      <characteristics>
+                        <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">10-11</characteristic>
+                        <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">12-13</characteristic>
+                        <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">14+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections>
+                    <selection id="7ecd-04f8-b6d7-843c" name="⦿⦾⦾⦾⦾⦾(1)" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::f11f-d438-e068-55b0" entryGroupId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::6af1-2245-c637-6ede" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::87e2-3a49-fab7-bd12" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                          <characteristics>
+                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="ad5c-1097-ee8a-9f95" name="Legs" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::713c-28fb-4137-ebaa" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::d0bc-768d-a5e6-0860" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                      <characteristics>
+                        <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">10-12</characteristic>
+                        <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
+                        <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">15+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections>
+                    <selection id="b1fa-16c0-8ae6-7cae" name="⦿⦾⦾⦾⦾⦾(1)" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::d606-2a1c-8c9c-5471" entryGroupId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::9f02-2f8d-abb8-3805" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::5249-a13b-4fe1-91d7" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                          <characteristics>
+                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="4fe5-0145-2eeb-a81f" name="Head" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::9ac5-a8f1-414a-71f6" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::7813-edce-26c0-de80" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                      <characteristics>
+                        <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-13</characteristic>
+                        <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
+                        <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">16+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections>
+                    <selection id="ccb8-669b-40ef-edb7" name="⦿⦾⦾⦾⦾(1)" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::3271-618c-4f38-ecc0" entryGroupId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::54e3-a1e1-034a-f2c2" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::95d4-96cf-8696-9dc0" name="⦿⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                          <characteristics>
+                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="5b3f-8cdb-0d37-9fa9" name="Void Shields" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::33bf-049a-2e61-89c2" number="1" type="upgrade">
+                  <selections>
+                    <selection id="ecf3-dc96-8817-a732" name="Void Shield (3+) ⦿⦾⦾⦾" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::b3cb-9e84-6181-37dd::e7f3-4f09-8dc2-5b18" entryGroupId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::74ac-8b96-f42c-3a28" number="1" type="upgrade">
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="d3e1-515d-6fa7-ea03" name="Plasma Reactor" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::e9f6-5f0a-f3a7-456b" number="1" type="upgrade">
+                  <selections>
+                    <selection id="9b99-33da-6154-4015" name="⦿⦾⦾⦾⦾ Green(1)" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::796b-1378-14f8-3eb3" entryGroupId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::a729-d6f9-299f-a129" number="1" type="upgrade">
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="180.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="514a-f7da-1f18-c71a" name="Titan" entryId="3f71-3a59-3b75-4ecf" primary="false"/>
+                <category id="0b5e-797c-3881-87e9" name="WarhoundTitan" entryId="223f-6e71-9e4f-939e" primary="true"/>
+              </categories>
+            </selection>
+            <selection id="9151-1728-779a-a459" name="Warhound Titan" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::3ad7-cd10-8d6e-8c2e" number="1" type="model">
+              <profiles>
+                <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::6a50-23dd-224f-f8c3" name="Warhound Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+                  <characteristics>
+                    <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">8&quot;/12&quot;</characteristic>
+                    <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">5+</characteristic>
+                    <characteristic name="Ballistic Skill" typeId="f14c-a692-0b4a-c510">3+</characteristic>
+                    <characteristic name="Weapon Skill" typeId="935c-7d79-d2fe-dcf8">4+</characteristic>
+                    <characteristic name="Manuever" typeId="d9fc-a9ed-b5ab-e97c">3/5</characteristic>
+                    <characteristic name="Servitor Clades" typeId="a877-9231-f92a-5538">2</characteristic>
+                    <characteristic name="Scale" typeId="5359-4d2b-082b-546a">6</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="3c6e-98d3-8491-fb17" name="Body" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::2e08-5e77-3e6c-0875" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::9e1c-94e5-7c27-b887" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                      <characteristics>
+                        <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">10-11</characteristic>
+                        <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">12-13</characteristic>
+                        <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">14+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections>
+                    <selection id="adea-b429-0468-c3a9" name="⦿⦾⦾⦾⦾⦾(1)" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::f11f-d438-e068-55b0" entryGroupId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::6af1-2245-c637-6ede" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::87e2-3a49-fab7-bd12" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                          <characteristics>
+                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="e864-7607-c1e7-c47f" name="Legs" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::713c-28fb-4137-ebaa" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::d0bc-768d-a5e6-0860" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                      <characteristics>
+                        <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">10-12</characteristic>
+                        <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
+                        <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">15+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections>
+                    <selection id="31d1-67e1-cbd1-f671" name="⦿⦾⦾⦾⦾⦾(1)" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::d606-2a1c-8c9c-5471" entryGroupId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::9f02-2f8d-abb8-3805" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::5249-a13b-4fe1-91d7" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                          <characteristics>
+                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="aff3-73fb-b3b4-4e1d" name="Head" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::9ac5-a8f1-414a-71f6" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::7813-edce-26c0-de80" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                      <characteristics>
+                        <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-13</characteristic>
+                        <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
+                        <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">16+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections>
+                    <selection id="48c3-e156-904e-452e" name="⦿⦾⦾⦾⦾(1)" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::3271-618c-4f38-ecc0" entryGroupId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::54e3-a1e1-034a-f2c2" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::95d4-96cf-8696-9dc0" name="⦿⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                          <characteristics>
+                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="38c1-5c8f-4401-2324" name="Void Shields" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::33bf-049a-2e61-89c2" number="1" type="upgrade">
+                  <selections>
+                    <selection id="905d-d85b-7338-e513" name="Void Shield (3+) ⦿⦾⦾⦾" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::b3cb-9e84-6181-37dd::e7f3-4f09-8dc2-5b18" entryGroupId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::74ac-8b96-f42c-3a28" number="1" type="upgrade">
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="0fea-4e85-83e0-2d56" name="Plasma Reactor" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::e9f6-5f0a-f3a7-456b" number="1" type="upgrade">
+                  <selections>
+                    <selection id="201a-a6c2-7b81-1399" name="⦿⦾⦾⦾⦾ Green(1)" entryId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::796b-1378-14f8-3eb3" entryGroupId="7e16-91e5-f646-3e5e::888e-a4ff-c051-e2ab::a729-d6f9-299f-a129" number="1" type="upgrade">
+                      <costs>
+                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="180.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="3041-ac8d-f0d9-ad4f" name="Titan" entryId="3f71-3a59-3b75-4ecf" primary="false"/>
+                <category id="7399-1e2b-ad39-9224" name="WarhoundTitan" entryId="223f-6e71-9e4f-939e" primary="true"/>
+              </categories>
+            </selection>
+            <selection id="a302-3711-afa6-4795" name="Titan Legion" entryId="7e16-91e5-f646-3e5e::b85c-47c0-195d-0d33::6202-19dc-f26f-9b64" number="1" type="upgrade">
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="ec19-8c74-37a8-a68f" name="Titan Legion" entryId="d204-9898-0ffb-02f4" primary="true"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="ea42-fc4f-e268-2f43" name="Maniple" entryId="6982-2d18-55cb-61e5" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="6485-f781-7ea7-6e65" name="Reaver Titan" entryId="9992-64af-f770-acd6::9ff1-81bc-203d-620c" number="1" type="model">
+          <profiles>
+            <profile id="9992-64af-f770-acd6::7ff1-9cf5-3d51-6ff7" name="Reaver Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+              <characteristics>
+                <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">6&quot;/9&quot;</characteristic>
+                <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">4+</characteristic>
+                <characteristic name="Ballistic Skill" typeId="f14c-a692-0b4a-c510">3+</characteristic>
+                <characteristic name="Weapon Skill" typeId="935c-7d79-d2fe-dcf8">4+</characteristic>
+                <characteristic name="Manuever" typeId="d9fc-a9ed-b5ab-e97c">2/3</characteristic>
+                <characteristic name="Servitor Clades" typeId="a877-9231-f92a-5538">3</characteristic>
+                <characteristic name="Scale" typeId="5359-4d2b-082b-546a">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="d84d-0844-e5d7-144c" name="Body" entryId="9992-64af-f770-acd6::1dcd-1615-5634-3ac7" number="1" type="upgrade">
+              <profiles>
+                <profile id="9992-64af-f770-acd6::405a-e1d7-49d0-4548" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                  <characteristics>
+                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-13</characteristic>
+                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-16</characteristic>
+                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">17+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="8ce8-f851-442d-de46" name="⦿⦾⦾⦾⦾⦾⦾(1)" entryId="9992-64af-f770-acd6::59bd-5186-d156-7809" entryGroupId="9992-64af-f770-acd6::9ea5-7d31-c03a-5d16" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="9992-64af-f770-acd6::6958-b016-77e8-c29b" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                      <characteristics>
+                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="f83f-c6aa-2be8-6dd4" name="Head" entryId="9992-64af-f770-acd6::e785-b175-8850-4890" number="1" type="upgrade">
+              <profiles>
+                <profile id="9992-64af-f770-acd6::61cc-c41e-f222-a03c" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                  <characteristics>
+                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">10-12</characteristic>
+                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
+                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">15+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="0345-0b89-4d37-7330" name="⦿⦾⦾⦾⦾⦾(1)" entryId="9992-64af-f770-acd6::7b4b-c92a-0650-3ba2" entryGroupId="9992-64af-f770-acd6::a049-0f1c-59f2-59f9" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="9992-64af-f770-acd6::5238-3213-ec28-3811" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                      <characteristics>
+                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="0507-0441-86e9-f62a" name="Legs" entryId="9992-64af-f770-acd6::de93-8bdc-dd8d-3c91" number="1" type="upgrade">
+              <profiles>
+                <profile id="9992-64af-f770-acd6::59c9-6941-5ea7-8ecb" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                  <characteristics>
+                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-12</characteristic>
+                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
+                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">15+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="4c4f-2be7-8d0a-5020" name="⦿⦾⦾⦾⦾⦾⦾(1)" entryId="9992-64af-f770-acd6::99b4-2e5d-ce48-cf2a" entryGroupId="9992-64af-f770-acd6::2736-f5dc-9b2a-8866" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="9992-64af-f770-acd6::32e4-fc75-274e-f3ff" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                      <characteristics>
+                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="6b1c-b686-7fc1-96dc" name="Void Shields" entryId="9992-64af-f770-acd6::ca96-66a7-2466-4553" number="1" type="upgrade">
+              <selections>
+                <selection id="2cd4-b69f-3e3f-dd67" name="Void Shield (3+) ⦿⦾⦾⦾⦾" entryId="9992-64af-f770-acd6::052b-4a86-88ac-055c::e7f3-4f09-8dc2-5b18" entryGroupId="9992-64af-f770-acd6::71a5-9388-870c-25e1" number="1" type="upgrade">
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="c6d5-a18e-7c39-6c51" name="Plasma Reactor" entryId="9992-64af-f770-acd6::5c91-fa9e-ab6b-d54c" number="1" type="upgrade">
+              <selections>
+                <selection id="3615-151a-baf8-fba5" name="⦿⦾⦾⦾⦾⦾ Green(1)" entryId="9992-64af-f770-acd6::0822-47ae-0621-86a4" entryGroupId="9992-64af-f770-acd6::9bdf-f064-c87f-19ce" number="1" type="upgrade">
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="250.0"/>
+            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="e164-5a4f-6032-7d94" name="Titan" entryId="3f71-3a59-3b75-4ecf" primary="false"/>
+            <category id="a836-c9cf-bb2a-1f98" name="ReaverTitan" entryId="d36f-5e44-2150-3428" primary="false"/>
+            <category id="7a40-51ed-0474-c730" name="Titan" entryId="3f71-3a59-3b75-4ecf" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="2d54-9017-a126-a278" name="Acastus Knight Banner" entryId="34d0-7019-8dcc-71c5::4944-7ee2-734b-6fa5" number="1" type="unit">
+          <rules>
+            <rule id="59fb-73c8-478f-68c9" name="Banner" publicationId="975a-00f4-pubN65537" hidden="false">
+              <description>Composition of a Banner
+A Banner is made up of a number of Knights acting as a single unit. The reverse of a Banner&apos;s Command Terminal describes its exact composition, along with any options. When a Banner is activated, all of the Knights within it act; individual Knights cannot be activated.
+
+Banners in the Movement Phase
+When a Banner is activated in the Movement phase, each Knight can move up to the Banner&apos;s Speed characteristic in inches. Knights are considered to have a 360° Front arc, and can make
+as many turns as they wish as they move. When the Banner has finished moving, each must be within 3&quot; of another Knight in the Banner - Knight Banners operate in much closer proximity than Titan Squadrons, especially when facing larger war engines. If any of the Knights are outside of this range, the Banner is Shaken - see page 47.
+
+Banners in the Combat Phase
+When a Banner is activated in the Combat phase, it follows the Combat Sequence as if it were a Titan. Instead of attacking with each Knight individually, make an attack with each different weapon in tum. For each weapon, multiply the Dice characteristic by the number of Knights in the Banner that are equipped with that weapon, and which are within range and line of sight of the target. For example,ifa Banner has two Knights armed with rapid fire battle cannon (Dice 2) and one Knight armed with a thermal cannon (Dicer),it would roll four dice when attacking with the battle cannon and one dice when attacking with the thermal cannon.IfsomeKnightsarewithin2&quot; ofthetargetandothersare further away, roll using Ballistic Skill for those that are further, and Weapon Skill for those that are within 2&quot;.
+
+When determining line of sight for a Banner, Knights within the Banner do not block the view of others. Also, remember that Knights have a 360° Front arc,so their weapons can fire in any direction. All of the weapons in a Banner must be fired at the same target, unless the Banner has Split Fire orders, at which point each weapon can be directed at a different target.
+
+Banners cannot make Smash Attacks.
+
+ATTACKING BANNERS. When attacking a Banner, pick a single Knight in the Banner to be the target of the attack. This model is used for purposes ofrange,line ofsight and so on. However, any damage that is caused is applied to the Banner as a whole. As Banners
+do not have Side or Rear arcs, these do not cause modifiers to the Damage roll.
+
+ION SHIELDS. When fighting in a Banner, Knights align their Ion shields, granting them greater protection as a group than individually. Ion shields are different to void shields;ifa rule refers specifically to void shields, it does not affect ion shields, but ifit refers to Shield saves, it will affect both. Note that, unlike void shields, ion shields can be used against attacks that originate from within 2&quot;.
+If a Banner is hit by a shooting attack, hits are resolved (at Step 5 of the Combat Sequence) as follows:
+• Target&apos;s controlling player makes Ion Shield saves.
+• The attacking player makes Armour rolls for any remaining hits.
+To make an Ion Shield save, look up the Ion Shield level on the Banner&apos;s Command Terminal, which varies depending on the number of Knights currently in the Banner and the Strength of the attack. Then roll a D6 for each hit that was scored. For each dice that equals or beats the Ion Shield level, the hit is discarded. Then for each remaining hit, the attacking player makes an Armour roll as described on page 34.
+
+DAMAGING BANNERS. Direct Hits, Devastating Hits and Critical Hits affect Banners differently to Titans, as follows:
+
+Direct Hit: When a Banner suffers a Direct Hit,it loses a Structure point. If it has no Structure points left to lose, one Knight in the Banner is desttoyed instead.
+
+Devastating Hit: When a Banner suffers a Devastating Hit, it loses two Structure points. If the Banner has one Structure point or no Structure points left when it suffers a Devastating Hit, one Knight in the Banner is destroyed instead.
+
+Critical Hit: When a Banner suffers a Critical Hit, it loses two Structure points, then one Knight in the Banner is destroyed.
+If the Banner has one Structure point or no Structure points j left when it suffers a Critical Hit, two Knights in the Banner are destroyed instead.
+
+When a Knight is destroyed, the controlling player chooses one model to remove. The Banner&apos;s Structure Points marker is then immediately reset to the first hole of the track. If a Targeted Attack destroys a Knight, the attacking player can choose which model to remove instead of the controlling player.
+
+BLAST MARKERS, FLAME TEMPLATES AND AREA EFFECTS. When a Banner is hit by a Blast marker or Flame template, total the number of hits scored on the models in the Banner, then apply that many hits to the Banner as a whole. This also applies to attack~with an area effect - catastrophic reactor overloads, environmental effects and so on.
+
+Shaken Banners
+Each time a Knight is removed from a Banner, the Banner must make a Command check. If it is failed, the Banner is Shaken. It immediately loses any orders and an Order dice showing the Shutdown symbol is placed on its Command Terminal to show that it is Shaken. Shaken Banners subtract 3&quot; from their Speed and will suffer a -1 modifier to all Hit rolls.
+When the Banner is activated in the Issue Orders step of the next Strategy phase, make a Command roll for the Shaken Banner. If it is passed, remove the dice. Otherwise, it stays where it is. In either case, the Banner cannot be issued orders.
+
+</description>
+            </rule>
+            <rule id="34d0-7019-8dcc-71c5::34c7-89b7-04b7-f19e" name="Acastus Knight Artillery" hidden="false">
+              <description>If an Acastus Knight Banner is issued First Fire or Split Fire orders during the Strategy phase, their BS is increased to 3+ until the End phase</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="34d0-7019-8dcc-71c5::0133-83bd-868b-8389" name="1 Acastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+              <characteristics>
+                <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">1</characteristic>
+                <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">5+</characteristic>
+                <characteristic name="Attack Strength 7" typeId="98f9-171c-acdd-7313">6+</characteristic>
+                <characteristic name="Attack Strength 8" typeId="0cf0-9891-2cf4-ecbf"/>
+                <characteristic name="Attack Strength 9" typeId="73b3-c9cf-ac6b-792f"/>
+                <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
+              </characteristics>
+            </profile>
+            <profile id="34d0-7019-8dcc-71c5::1165-1062-a636-8033" name="2-3 Acastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+              <characteristics>
+                <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">2-3</characteristic>
+                <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">4+</characteristic>
+                <characteristic name="Attack Strength 7" typeId="98f9-171c-acdd-7313">5+</characteristic>
+                <characteristic name="Attack Strength 8" typeId="0cf0-9891-2cf4-ecbf">6+</characteristic>
+                <characteristic name="Attack Strength 9" typeId="73b3-c9cf-ac6b-792f"/>
+                <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
+              </characteristics>
+            </profile>
+            <profile id="34d0-7019-8dcc-71c5::8218-38e2-f6b3-7895" name="4+ Acastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+              <characteristics>
+                <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">4+</characteristic>
+                <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">3+</characteristic>
+                <characteristic name="Attack Strength 7" typeId="98f9-171c-acdd-7313">4+</characteristic>
+                <characteristic name="Attack Strength 8" typeId="0cf0-9891-2cf4-ecbf">5+</characteristic>
+                <characteristic name="Attack Strength 9" typeId="73b3-c9cf-ac6b-792f">6+</characteristic>
+                <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
+              </characteristics>
+            </profile>
+            <profile id="34d0-7019-8dcc-71c5::8352-e0e5-dc9e-f305" name="Acastus Knight Banner Location Table" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+              <characteristics>
+                <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">10-14</characteristic>
+                <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">15-16</characteristic>
+                <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">17+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="34d0-7019-8dcc-71c5::858f-4f88-022b-298c" name="Acastus Knight" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+              <characteristics>
+                <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">7&quot;</characteristic>
+                <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">5 (3 with Lord Scion)</characteristic>
+                <characteristic name="Ballistic Skill" typeId="f14c-a692-0b4a-c510">4+</characteristic>
+                <characteristic name="Weapon Skill" typeId="935c-7d79-d2fe-dcf8">5+</characteristic>
+                <characteristic name="Manuever" typeId="d9fc-a9ed-b5ab-e97c">ignores</characteristic>
+                <characteristic name="Servitor Clades" typeId="a877-9231-f92a-5538">-</characteristic>
+                <characteristic name="Scale" typeId="5359-4d2b-082b-546a">5 (Grandis)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="4adc-ffc5-5137-4585" name="Structure Points" entryId="34d0-7019-8dcc-71c5::9c3d-0584-6da5-52c5" number="1" type="upgrade">
+              <selections>
+                <selection id="04d0-d171-d686-f464" name="⦿⦾⦾⦾⦾⦾⦾(1)" entryId="34d0-7019-8dcc-71c5::900b-24b9-ffb0-c1b8" entryGroupId="34d0-7019-8dcc-71c5::41e4-7ede-0b3e-1f19" number="1" type="upgrade">
+                  <costs>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="4fdb-d410-aed8-9ae2" name="Lord Scion" entryId="34d0-7019-8dcc-71c5::592f-6dcd-a128-5453::c197-9e7c-0bb5-0889" number="1" type="model">
+              <rules>
+                <rule id="34d0-7019-8dcc-71c5::592f-6dcd-a128-5453::df55-7c19-a9fc-8be8" name="Lord Scion" hidden="false">
+                  <description>While the Lord Scion is part of the Banner, add +2 to the result of any Command checks for it.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="80.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="7b2f-8757-8765-7c21" name="Banner" entryId="917a-77ef-30e4-b812" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="9f9e-a4bb-ecf8-3e69" name="Cerastus Knight Banner" entryId="ee61-27d4-5330-1a0d::2e8d-74e3-aecf-9e11" number="1" type="unit">
+          <rules>
+            <rule id="59fb-73c8-478f-68c9" name="Banner" publicationId="975a-00f4-pubN65537" hidden="false">
+              <description>Composition of a Banner
+A Banner is made up of a number of Knights acting as a single unit. The reverse of a Banner&apos;s Command Terminal describes its exact composition, along with any options. When a Banner is activated, all of the Knights within it act; individual Knights cannot be activated.
+
+Banners in the Movement Phase
+When a Banner is activated in the Movement phase, each Knight can move up to the Banner&apos;s Speed characteristic in inches. Knights are considered to have a 360° Front arc, and can make
+as many turns as they wish as they move. When the Banner has finished moving, each must be within 3&quot; of another Knight in the Banner - Knight Banners operate in much closer proximity than Titan Squadrons, especially when facing larger war engines. If any of the Knights are outside of this range, the Banner is Shaken - see page 47.
+
+Banners in the Combat Phase
+When a Banner is activated in the Combat phase, it follows the Combat Sequence as if it were a Titan. Instead of attacking with each Knight individually, make an attack with each different weapon in tum. For each weapon, multiply the Dice characteristic by the number of Knights in the Banner that are equipped with that weapon, and which are within range and line of sight of the target. For example,ifa Banner has two Knights armed with rapid fire battle cannon (Dice 2) and one Knight armed with a thermal cannon (Dicer),it would roll four dice when attacking with the battle cannon and one dice when attacking with the thermal cannon.IfsomeKnightsarewithin2&quot; ofthetargetandothersare further away, roll using Ballistic Skill for those that are further, and Weapon Skill for those that are within 2&quot;.
+
+When determining line of sight for a Banner, Knights within the Banner do not block the view of others. Also, remember that Knights have a 360° Front arc,so their weapons can fire in any direction. All of the weapons in a Banner must be fired at the same target, unless the Banner has Split Fire orders, at which point each weapon can be directed at a different target.
+
+Banners cannot make Smash Attacks.
+
+ATTACKING BANNERS. When attacking a Banner, pick a single Knight in the Banner to be the target of the attack. This model is used for purposes ofrange,line ofsight and so on. However, any damage that is caused is applied to the Banner as a whole. As Banners
+do not have Side or Rear arcs, these do not cause modifiers to the Damage roll.
+
+ION SHIELDS. When fighting in a Banner, Knights align their Ion shields, granting them greater protection as a group than individually. Ion shields are different to void shields;ifa rule refers specifically to void shields, it does not affect ion shields, but ifit refers to Shield saves, it will affect both. Note that, unlike void shields, ion shields can be used against attacks that originate from within 2&quot;.
+If a Banner is hit by a shooting attack, hits are resolved (at Step 5 of the Combat Sequence) as follows:
+• Target&apos;s controlling player makes Ion Shield saves.
+• The attacking player makes Armour rolls for any remaining hits.
+To make an Ion Shield save, look up the Ion Shield level on the Banner&apos;s Command Terminal, which varies depending on the number of Knights currently in the Banner and the Strength of the attack. Then roll a D6 for each hit that was scored. For each dice that equals or beats the Ion Shield level, the hit is discarded. Then for each remaining hit, the attacking player makes an Armour roll as described on page 34.
+
+DAMAGING BANNERS. Direct Hits, Devastating Hits and Critical Hits affect Banners differently to Titans, as follows:
+
+Direct Hit: When a Banner suffers a Direct Hit,it loses a Structure point. If it has no Structure points left to lose, one Knight in the Banner is desttoyed instead.
+
+Devastating Hit: When a Banner suffers a Devastating Hit, it loses two Structure points. If the Banner has one Structure point or no Structure points left when it suffers a Devastating Hit, one Knight in the Banner is destroyed instead.
+
+Critical Hit: When a Banner suffers a Critical Hit, it loses two Structure points, then one Knight in the Banner is destroyed.
+If the Banner has one Structure point or no Structure points j left when it suffers a Critical Hit, two Knights in the Banner are destroyed instead.
+
+When a Knight is destroyed, the controlling player chooses one model to remove. The Banner&apos;s Structure Points marker is then immediately reset to the first hole of the track. If a Targeted Attack destroys a Knight, the attacking player can choose which model to remove instead of the controlling player.
+
+BLAST MARKERS, FLAME TEMPLATES AND AREA EFFECTS. When a Banner is hit by a Blast marker or Flame template, total the number of hits scored on the models in the Banner, then apply that many hits to the Banner as a whole. This also applies to attack~with an area effect - catastrophic reactor overloads, environmental effects and so on.
+
+Shaken Banners
+Each time a Knight is removed from a Banner, the Banner must make a Command check. If it is failed, the Banner is Shaken. It immediately loses any orders and an Order dice showing the Shutdown symbol is placed on its Command Terminal to show that it is Shaken. Shaken Banners subtract 3&quot; from their Speed and will suffer a -1 modifier to all Hit rolls.
+When the Banner is activated in the Issue Orders step of the next Strategy phase, make a Command roll for the Shaken Banner. If it is passed, remove the dice. Otherwise, it stays where it is. In either case, the Banner cannot be issued orders.
+
+</description>
+            </rule>
+            <rule id="ee61-27d4-5330-1a0d::ffc9-d092-29c3-c0f7" name="Knight Lancer Ion Gauntlet Shield" hidden="false">
+              <description>If the Banner contains one or more Cerastus Knight Lancers, improve the Banner&apos;s Ion Shield save roll by 1</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="ee61-27d4-5330-1a0d::e79e-b6d9-c469-8998" name="1 Cerastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+              <characteristics>
+                <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">1</characteristic>
+                <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">5+</characteristic>
+                <characteristic name="Attack Strength 7" typeId="98f9-171c-acdd-7313">6+</characteristic>
+                <characteristic name="Attack Strength 8" typeId="0cf0-9891-2cf4-ecbf"/>
+                <characteristic name="Attack Strength 9" typeId="73b3-c9cf-ac6b-792f"/>
+                <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
+              </characteristics>
+            </profile>
+            <profile id="ee61-27d4-5330-1a0d::9d38-14fc-8ec7-3673" name="2 Cerastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+              <characteristics>
+                <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">2</characteristic>
+                <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">4+</characteristic>
+                <characteristic name="Attack Strength 7" typeId="98f9-171c-acdd-7313">5+</characteristic>
+                <characteristic name="Attack Strength 8" typeId="0cf0-9891-2cf4-ecbf">6+</characteristic>
+                <characteristic name="Attack Strength 9" typeId="73b3-c9cf-ac6b-792f"/>
+                <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
+              </characteristics>
+            </profile>
+            <profile id="ee61-27d4-5330-1a0d::0552-4e2d-8908-36ea" name="3+ Cerastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+              <characteristics>
+                <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">3+</characteristic>
+                <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">3+</characteristic>
+                <characteristic name="Attack Strength 7" typeId="98f9-171c-acdd-7313">4+</characteristic>
+                <characteristic name="Attack Strength 8" typeId="0cf0-9891-2cf4-ecbf">5+</characteristic>
+                <characteristic name="Attack Strength 9" typeId="73b3-c9cf-ac6b-792f">6+</characteristic>
+                <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
+              </characteristics>
+            </profile>
+            <profile id="ee61-27d4-5330-1a0d::3b58-726c-1501-52cf" name="Cerastus Knight Banner Location Table" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+              <characteristics>
+                <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">9-12</characteristic>
+                <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-15</characteristic>
+                <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">16+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ee61-27d4-5330-1a0d::4cf8-05ea-ff5b-5752" name="Cerastus Knight" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+              <characteristics>
+                <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">12&quot;</characteristic>
+                <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">5 (3 with Lord Scion)</characteristic>
+                <characteristic name="Ballistic Skill" typeId="f14c-a692-0b4a-c510">4+</characteristic>
+                <characteristic name="Weapon Skill" typeId="935c-7d79-d2fe-dcf8">3+</characteristic>
+                <characteristic name="Manuever" typeId="d9fc-a9ed-b5ab-e97c">ignores</characteristic>
+                <characteristic name="Servitor Clades" typeId="a877-9231-f92a-5538">-</characteristic>
+                <characteristic name="Scale" typeId="5359-4d2b-082b-546a">4 (Grandis)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="a8c1-8602-e46e-6850" name="Structure Points" entryId="ee61-27d4-5330-1a0d::0734-5864-c482-92c1" number="1" type="upgrade">
+              <selections>
+                <selection id="d361-ddac-ee12-eaca" name="⦿⦾⦾⦾⦾(1)" entryId="ee61-27d4-5330-1a0d::4c60-d929-fad1-abd8" entryGroupId="ee61-27d4-5330-1a0d::822f-6d2d-bf03-3180" number="1" type="upgrade">
+                  <costs>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="15d1-85a4-899f-9486" name="Lord Scion" entryId="ee61-27d4-5330-1a0d::eebf-89ee-8c69-59a6::c197-9e7c-0bb5-0889" number="1" type="model">
+              <rules>
+                <rule id="ee61-27d4-5330-1a0d::eebf-89ee-8c69-59a6::df55-7c19-a9fc-8be8" name="Lord Scion" hidden="false">
+                  <description>While the Lord Scion is part of the Banner, add +2 to the result of any Command checks for it.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="70.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="29a9-76f8-1288-9683" name="Scion Martial" entryId="ee61-27d4-5330-1a0d::99e6-43c9-8687-531a::5cc8-bdd5-8c3f-5bc3" number="1" type="model">
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="60.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="dd7c-0ce7-d0ac-beb0" name="Banner" entryId="917a-77ef-30e4-b812" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="1ab6-554c-8862-500b" name="Questoris Support Banner" entryId="f800-8048-0564-7b73::2b6b-b476-bd24-8c5c" number="1" type="unit">
+          <rules>
+            <rule id="59fb-73c8-478f-68c9" name="Banner" publicationId="975a-00f4-pubN65537" hidden="false">
+              <description>Composition of a Banner
+A Banner is made up of a number of Knights acting as a single unit. The reverse of a Banner&apos;s Command Terminal describes its exact composition, along with any options. When a Banner is activated, all of the Knights within it act; individual Knights cannot be activated.
+
+Banners in the Movement Phase
+When a Banner is activated in the Movement phase, each Knight can move up to the Banner&apos;s Speed characteristic in inches. Knights are considered to have a 360° Front arc, and can make
+as many turns as they wish as they move. When the Banner has finished moving, each must be within 3&quot; of another Knight in the Banner - Knight Banners operate in much closer proximity than Titan Squadrons, especially when facing larger war engines. If any of the Knights are outside of this range, the Banner is Shaken - see page 47.
+
+Banners in the Combat Phase
+When a Banner is activated in the Combat phase, it follows the Combat Sequence as if it were a Titan. Instead of attacking with each Knight individually, make an attack with each different weapon in tum. For each weapon, multiply the Dice characteristic by the number of Knights in the Banner that are equipped with that weapon, and which are within range and line of sight of the target. For example,ifa Banner has two Knights armed with rapid fire battle cannon (Dice 2) and one Knight armed with a thermal cannon (Dicer),it would roll four dice when attacking with the battle cannon and one dice when attacking with the thermal cannon.IfsomeKnightsarewithin2&quot; ofthetargetandothersare further away, roll using Ballistic Skill for those that are further, and Weapon Skill for those that are within 2&quot;.
+
+When determining line of sight for a Banner, Knights within the Banner do not block the view of others. Also, remember that Knights have a 360° Front arc,so their weapons can fire in any direction. All of the weapons in a Banner must be fired at the same target, unless the Banner has Split Fire orders, at which point each weapon can be directed at a different target.
+
+Banners cannot make Smash Attacks.
+
+ATTACKING BANNERS. When attacking a Banner, pick a single Knight in the Banner to be the target of the attack. This model is used for purposes ofrange,line ofsight and so on. However, any damage that is caused is applied to the Banner as a whole. As Banners
+do not have Side or Rear arcs, these do not cause modifiers to the Damage roll.
+
+ION SHIELDS. When fighting in a Banner, Knights align their Ion shields, granting them greater protection as a group than individually. Ion shields are different to void shields;ifa rule refers specifically to void shields, it does not affect ion shields, but ifit refers to Shield saves, it will affect both. Note that, unlike void shields, ion shields can be used against attacks that originate from within 2&quot;.
+If a Banner is hit by a shooting attack, hits are resolved (at Step 5 of the Combat Sequence) as follows:
+• Target&apos;s controlling player makes Ion Shield saves.
+• The attacking player makes Armour rolls for any remaining hits.
+To make an Ion Shield save, look up the Ion Shield level on the Banner&apos;s Command Terminal, which varies depending on the number of Knights currently in the Banner and the Strength of the attack. Then roll a D6 for each hit that was scored. For each dice that equals or beats the Ion Shield level, the hit is discarded. Then for each remaining hit, the attacking player makes an Armour roll as described on page 34.
+
+DAMAGING BANNERS. Direct Hits, Devastating Hits and Critical Hits affect Banners differently to Titans, as follows:
+
+Direct Hit: When a Banner suffers a Direct Hit,it loses a Structure point. If it has no Structure points left to lose, one Knight in the Banner is desttoyed instead.
+
+Devastating Hit: When a Banner suffers a Devastating Hit, it loses two Structure points. If the Banner has one Structure point or no Structure points left when it suffers a Devastating Hit, one Knight in the Banner is destroyed instead.
+
+Critical Hit: When a Banner suffers a Critical Hit, it loses two Structure points, then one Knight in the Banner is destroyed.
+If the Banner has one Structure point or no Structure points j left when it suffers a Critical Hit, two Knights in the Banner are destroyed instead.
+
+When a Knight is destroyed, the controlling player chooses one model to remove. The Banner&apos;s Structure Points marker is then immediately reset to the first hole of the track. If a Targeted Attack destroys a Knight, the attacking player can choose which model to remove instead of the controlling player.
+
+BLAST MARKERS, FLAME TEMPLATES AND AREA EFFECTS. When a Banner is hit by a Blast marker or Flame template, total the number of hits scored on the models in the Banner, then apply that many hits to the Banner as a whole. This also applies to attack~with an area effect - catastrophic reactor overloads, environmental effects and so on.
+
+Shaken Banners
+Each time a Knight is removed from a Banner, the Banner must make a Command check. If it is failed, the Banner is Shaken. It immediately loses any orders and an Order dice showing the Shutdown symbol is placed on its Command Terminal to show that it is Shaken. Shaken Banners subtract 3&quot; from their Speed and will suffer a -1 modifier to all Hit rolls.
+When the Banner is activated in the Issue Orders step of the next Strategy phase, make a Command roll for the Shaken Banner. If it is passed, remove the dice. Otherwise, it stays where it is. In either case, the Banner cannot be issued orders.
+
+</description>
+            </rule>
+            <rule id="e1ee-cf92-788d-7083" name="Agile" hidden="false">
+              <description>Not effected by Difficult or Dangerous Terrain</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="f800-8048-0564-7b73::b96b-d322-79ed-3b15" name="Questoris Knight" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+              <characteristics>
+                <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">10&quot;</characteristic>
+                <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">6 (4 with Lord Scion)</characteristic>
+                <characteristic name="Ballistic Skill" typeId="f14c-a692-0b4a-c510">4+</characteristic>
+                <characteristic name="Weapon Skill" typeId="935c-7d79-d2fe-dcf8">3+</characteristic>
+                <characteristic name="Manuever" typeId="d9fc-a9ed-b5ab-e97c">ignores</characteristic>
+                <characteristic name="Servitor Clades" typeId="a877-9231-f92a-5538">-</characteristic>
+                <characteristic name="Scale" typeId="5359-4d2b-082b-546a">3 (Grandis)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f800-8048-0564-7b73::87f9-8899-2c4c-e7e4" name="1 Questoris Support Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+              <characteristics>
+                <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">1</characteristic>
+                <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">5+</characteristic>
+                <characteristic name="Attack Strength 7" typeId="98f9-171c-acdd-7313">6+</characteristic>
+                <characteristic name="Attack Strength 8" typeId="0cf0-9891-2cf4-ecbf"/>
+                <characteristic name="Attack Strength 9" typeId="73b3-c9cf-ac6b-792f"/>
+                <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
+              </characteristics>
+            </profile>
+            <profile id="f800-8048-0564-7b73::ce38-d15f-b373-f333" name="2-3 Questoris Support Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+              <characteristics>
+                <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">2</characteristic>
+                <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">4+</characteristic>
+                <characteristic name="Attack Strength 7" typeId="98f9-171c-acdd-7313">5+</characteristic>
+                <characteristic name="Attack Strength 8" typeId="0cf0-9891-2cf4-ecbf">6+</characteristic>
+                <characteristic name="Attack Strength 9" typeId="73b3-c9cf-ac6b-792f"/>
+                <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
+              </characteristics>
+            </profile>
+            <profile id="f800-8048-0564-7b73::8ce1-3302-df2b-e2af" name="4+ Questoris Support Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+              <characteristics>
+                <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">4+</characteristic>
+                <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">3+</characteristic>
+                <characteristic name="Attack Strength 7" typeId="98f9-171c-acdd-7313">4+</characteristic>
+                <characteristic name="Attack Strength 8" typeId="0cf0-9891-2cf4-ecbf">5+</characteristic>
+                <characteristic name="Attack Strength 9" typeId="73b3-c9cf-ac6b-792f">6+</characteristic>
+                <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
+              </characteristics>
+            </profile>
+            <profile id="f800-8048-0564-7b73::769d-ba55-7054-bec5" name="Questoris Support Banner Location Table" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+              <characteristics>
+                <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">9-12</characteristic>
+                <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-15</characteristic>
+                <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">16+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="9984-822f-23d1-171f" name="Structure Points" entryId="f800-8048-0564-7b73::d869-27b8-7b88-6333" number="1" type="upgrade">
+              <selections>
+                <selection id="2da1-6d3e-6492-b488" name="⦿⦾⦾⦾(1)" entryId="f800-8048-0564-7b73::700e-13e6-6c97-657e" entryGroupId="f800-8048-0564-7b73::0956-f482-59b4-8265" number="1" type="upgrade">
+                  <costs>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="3e3f-6bdb-ba95-5eb5" name="Lord Scion" entryId="f800-8048-0564-7b73::6c5d-25f9-3110-dad5::c197-9e7c-0bb5-0889" number="1" type="model">
+              <rules>
+                <rule id="f800-8048-0564-7b73::6c5d-25f9-3110-dad5::df55-7c19-a9fc-8be8" name="Lord Scion" hidden="false">
+                  <description>While the Lord Scion is part of the Banner, add +2 to the result of any Command checks for it.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="50.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="e206-5399-b293-479c" name="Scion Martial" entryId="f800-8048-0564-7b73::49d8-4d4f-2a74-2ae3::5cc8-bdd5-8c3f-5bc3" number="2" type="model">
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="70.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="c7b8-c6b4-db0f-2585" name="Banner" entryId="917a-77ef-30e4-b812" primary="true"/>
+            <category id="a9c2-0f7c-e186-a1e1" name="Agile" entryId="e580-b213-3f86-c2fc" primary="false"/>
+            <category id="66ce-b85e-0a34-ae14" name="Knight" entryId="184a-ded9-ae1a-e357" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="e42e-d0f5-520c-b4bf" name="Questoris Support Banner" entryId="f800-8048-0564-7b73::2b6b-b476-bd24-8c5c" number="1" type="unit">
+          <rules>
+            <rule id="59fb-73c8-478f-68c9" name="Banner" publicationId="975a-00f4-pubN65537" hidden="false">
+              <description>Composition of a Banner
+A Banner is made up of a number of Knights acting as a single unit. The reverse of a Banner&apos;s Command Terminal describes its exact composition, along with any options. When a Banner is activated, all of the Knights within it act; individual Knights cannot be activated.
+
+Banners in the Movement Phase
+When a Banner is activated in the Movement phase, each Knight can move up to the Banner&apos;s Speed characteristic in inches. Knights are considered to have a 360° Front arc, and can make
+as many turns as they wish as they move. When the Banner has finished moving, each must be within 3&quot; of another Knight in the Banner - Knight Banners operate in much closer proximity than Titan Squadrons, especially when facing larger war engines. If any of the Knights are outside of this range, the Banner is Shaken - see page 47.
+
+Banners in the Combat Phase
+When a Banner is activated in the Combat phase, it follows the Combat Sequence as if it were a Titan. Instead of attacking with each Knight individually, make an attack with each different weapon in tum. For each weapon, multiply the Dice characteristic by the number of Knights in the Banner that are equipped with that weapon, and which are within range and line of sight of the target. For example,ifa Banner has two Knights armed with rapid fire battle cannon (Dice 2) and one Knight armed with a thermal cannon (Dicer),it would roll four dice when attacking with the battle cannon and one dice when attacking with the thermal cannon.IfsomeKnightsarewithin2&quot; ofthetargetandothersare further away, roll using Ballistic Skill for those that are further, and Weapon Skill for those that are within 2&quot;.
+
+When determining line of sight for a Banner, Knights within the Banner do not block the view of others. Also, remember that Knights have a 360° Front arc,so their weapons can fire in any direction. All of the weapons in a Banner must be fired at the same target, unless the Banner has Split Fire orders, at which point each weapon can be directed at a different target.
+
+Banners cannot make Smash Attacks.
+
+ATTACKING BANNERS. When attacking a Banner, pick a single Knight in the Banner to be the target of the attack. This model is used for purposes ofrange,line ofsight and so on. However, any damage that is caused is applied to the Banner as a whole. As Banners
+do not have Side or Rear arcs, these do not cause modifiers to the Damage roll.
+
+ION SHIELDS. When fighting in a Banner, Knights align their Ion shields, granting them greater protection as a group than individually. Ion shields are different to void shields;ifa rule refers specifically to void shields, it does not affect ion shields, but ifit refers to Shield saves, it will affect both. Note that, unlike void shields, ion shields can be used against attacks that originate from within 2&quot;.
+If a Banner is hit by a shooting attack, hits are resolved (at Step 5 of the Combat Sequence) as follows:
+• Target&apos;s controlling player makes Ion Shield saves.
+• The attacking player makes Armour rolls for any remaining hits.
+To make an Ion Shield save, look up the Ion Shield level on the Banner&apos;s Command Terminal, which varies depending on the number of Knights currently in the Banner and the Strength of the attack. Then roll a D6 for each hit that was scored. For each dice that equals or beats the Ion Shield level, the hit is discarded. Then for each remaining hit, the attacking player makes an Armour roll as described on page 34.
+
+DAMAGING BANNERS. Direct Hits, Devastating Hits and Critical Hits affect Banners differently to Titans, as follows:
+
+Direct Hit: When a Banner suffers a Direct Hit,it loses a Structure point. If it has no Structure points left to lose, one Knight in the Banner is desttoyed instead.
+
+Devastating Hit: When a Banner suffers a Devastating Hit, it loses two Structure points. If the Banner has one Structure point or no Structure points left when it suffers a Devastating Hit, one Knight in the Banner is destroyed instead.
+
+Critical Hit: When a Banner suffers a Critical Hit, it loses two Structure points, then one Knight in the Banner is destroyed.
+If the Banner has one Structure point or no Structure points j left when it suffers a Critical Hit, two Knights in the Banner are destroyed instead.
+
+When a Knight is destroyed, the controlling player chooses one model to remove. The Banner&apos;s Structure Points marker is then immediately reset to the first hole of the track. If a Targeted Attack destroys a Knight, the attacking player can choose which model to remove instead of the controlling player.
+
+BLAST MARKERS, FLAME TEMPLATES AND AREA EFFECTS. When a Banner is hit by a Blast marker or Flame template, total the number of hits scored on the models in the Banner, then apply that many hits to the Banner as a whole. This also applies to attack~with an area effect - catastrophic reactor overloads, environmental effects and so on.
+
+Shaken Banners
+Each time a Knight is removed from a Banner, the Banner must make a Command check. If it is failed, the Banner is Shaken. It immediately loses any orders and an Order dice showing the Shutdown symbol is placed on its Command Terminal to show that it is Shaken. Shaken Banners subtract 3&quot; from their Speed and will suffer a -1 modifier to all Hit rolls.
+When the Banner is activated in the Issue Orders step of the next Strategy phase, make a Command roll for the Shaken Banner. If it is passed, remove the dice. Otherwise, it stays where it is. In either case, the Banner cannot be issued orders.
+
+</description>
+            </rule>
+            <rule id="e1ee-cf92-788d-7083" name="Agile" hidden="false">
+              <description>Not effected by Difficult or Dangerous Terrain</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="f800-8048-0564-7b73::b96b-d322-79ed-3b15" name="Questoris Knight" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+              <characteristics>
+                <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">10&quot;</characteristic>
+                <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">6 (4 with Lord Scion)</characteristic>
+                <characteristic name="Ballistic Skill" typeId="f14c-a692-0b4a-c510">4+</characteristic>
+                <characteristic name="Weapon Skill" typeId="935c-7d79-d2fe-dcf8">3+</characteristic>
+                <characteristic name="Manuever" typeId="d9fc-a9ed-b5ab-e97c">ignores</characteristic>
+                <characteristic name="Servitor Clades" typeId="a877-9231-f92a-5538">-</characteristic>
+                <characteristic name="Scale" typeId="5359-4d2b-082b-546a">3 (Grandis)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f800-8048-0564-7b73::87f9-8899-2c4c-e7e4" name="1 Questoris Support Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+              <characteristics>
+                <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">1</characteristic>
+                <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">5+</characteristic>
+                <characteristic name="Attack Strength 7" typeId="98f9-171c-acdd-7313">6+</characteristic>
+                <characteristic name="Attack Strength 8" typeId="0cf0-9891-2cf4-ecbf"/>
+                <characteristic name="Attack Strength 9" typeId="73b3-c9cf-ac6b-792f"/>
+                <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
+              </characteristics>
+            </profile>
+            <profile id="f800-8048-0564-7b73::ce38-d15f-b373-f333" name="2-3 Questoris Support Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+              <characteristics>
+                <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">2</characteristic>
+                <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">4+</characteristic>
+                <characteristic name="Attack Strength 7" typeId="98f9-171c-acdd-7313">5+</characteristic>
+                <characteristic name="Attack Strength 8" typeId="0cf0-9891-2cf4-ecbf">6+</characteristic>
+                <characteristic name="Attack Strength 9" typeId="73b3-c9cf-ac6b-792f"/>
+                <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
+              </characteristics>
+            </profile>
+            <profile id="f800-8048-0564-7b73::8ce1-3302-df2b-e2af" name="4+ Questoris Support Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+              <characteristics>
+                <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">4+</characteristic>
+                <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">3+</characteristic>
+                <characteristic name="Attack Strength 7" typeId="98f9-171c-acdd-7313">4+</characteristic>
+                <characteristic name="Attack Strength 8" typeId="0cf0-9891-2cf4-ecbf">5+</characteristic>
+                <characteristic name="Attack Strength 9" typeId="73b3-c9cf-ac6b-792f">6+</characteristic>
+                <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
+              </characteristics>
+            </profile>
+            <profile id="f800-8048-0564-7b73::769d-ba55-7054-bec5" name="Questoris Support Banner Location Table" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+              <characteristics>
+                <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">9-12</characteristic>
+                <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-15</characteristic>
+                <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">16+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="c2a0-0cae-a2ef-41bf" name="Lord Scion" entryId="f800-8048-0564-7b73::6c5d-25f9-3110-dad5::c197-9e7c-0bb5-0889" number="1" type="model">
+              <rules>
+                <rule id="f800-8048-0564-7b73::6c5d-25f9-3110-dad5::df55-7c19-a9fc-8be8" name="Lord Scion" hidden="false">
+                  <description>While the Lord Scion is part of the Banner, add +2 to the result of any Command checks for it.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="50.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="f783-84a4-f21c-d851" name="Scion Martial" entryId="f800-8048-0564-7b73::49d8-4d4f-2a74-2ae3::5cc8-bdd5-8c3f-5bc3" number="2" type="model">
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="70.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="669c-23cb-4abc-734f" name="Structure Points" entryId="f800-8048-0564-7b73::d869-27b8-7b88-6333" number="1" type="upgrade">
+              <selections>
+                <selection id="6b75-26f1-0c00-2c72" name="⦿⦾⦾⦾(1)" entryId="f800-8048-0564-7b73::700e-13e6-6c97-657e" entryGroupId="f800-8048-0564-7b73::0956-f482-59b4-8265" number="1" type="upgrade">
+                  <costs>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="3c93-9c85-7ba9-b66b" name="Banner" entryId="917a-77ef-30e4-b812" primary="true"/>
+            <category id="f519-42f2-81c2-637e" name="Agile" entryId="e580-b213-3f86-c2fc" primary="false"/>
+            <category id="18ce-e370-2b8f-1a88" name="Knight" entryId="184a-ded9-ae1a-e357" primary="false"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="975a-00f4-pubN65537" name="Adeptus Titanicus 2018"/>
+        <publication id="975a-00f4-pubN89746" name="Doom Of Molech"/>
+        <publication id="25e8-c9ce-9330-c53b" name="Titandeath Errata v1.0"/>
+        <publication id="7c04-d50d-pubN65537" name="Adeptus Titanicus 2018"/>
+        <publication id="975a-00f4-pubN89033" name="White Dwarf: Feb 2019"/>
+        <publication id="975a-00f4-pubN87630" name="Titandeath"/>
+        <publication id="7236-e1d8-c886-f5fd" name="Adeptus Titanicus 2018 Errata v1.0"/>
+      </publications>
+      <categories>
+        <category id="63d5-0eb6-d9d6-79b3" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="402d-9057-0895-996f" name="Maniple" entryId="6982-2d18-55cb-61e5" primary="false"/>
+        <category id="0605-257f-e82c-f838" name="Titan" entryId="3f71-3a59-3b75-4ecf" primary="false"/>
+        <category id="d543-9c1e-d6b5-edb0" name="Banner" entryId="917a-77ef-30e4-b812" primary="false">
+          <rules>
+            <rule id="59fb-73c8-478f-68c9" name="Banner" publicationId="975a-00f4-pubN65537" hidden="false">
+              <description>Composition of a Banner
+A Banner is made up of a number of Knights acting as a single unit. The reverse of a Banner&apos;s Command Terminal describes its exact composition, along with any options. When a Banner is activated, all of the Knights within it act; individual Knights cannot be activated.
+
+Banners in the Movement Phase
+When a Banner is activated in the Movement phase, each Knight can move up to the Banner&apos;s Speed characteristic in inches. Knights are considered to have a 360° Front arc, and can make
+as many turns as they wish as they move. When the Banner has finished moving, each must be within 3&quot; of another Knight in the Banner - Knight Banners operate in much closer proximity than Titan Squadrons, especially when facing larger war engines. If any of the Knights are outside of this range, the Banner is Shaken - see page 47.
+
+Banners in the Combat Phase
+When a Banner is activated in the Combat phase, it follows the Combat Sequence as if it were a Titan. Instead of attacking with each Knight individually, make an attack with each different weapon in tum. For each weapon, multiply the Dice characteristic by the number of Knights in the Banner that are equipped with that weapon, and which are within range and line of sight of the target. For example,ifa Banner has two Knights armed with rapid fire battle cannon (Dice 2) and one Knight armed with a thermal cannon (Dicer),it would roll four dice when attacking with the battle cannon and one dice when attacking with the thermal cannon.IfsomeKnightsarewithin2&quot; ofthetargetandothersare further away, roll using Ballistic Skill for those that are further, and Weapon Skill for those that are within 2&quot;.
+
+When determining line of sight for a Banner, Knights within the Banner do not block the view of others. Also, remember that Knights have a 360° Front arc,so their weapons can fire in any direction. All of the weapons in a Banner must be fired at the same target, unless the Banner has Split Fire orders, at which point each weapon can be directed at a different target.
+
+Banners cannot make Smash Attacks.
+
+ATTACKING BANNERS. When attacking a Banner, pick a single Knight in the Banner to be the target of the attack. This model is used for purposes ofrange,line ofsight and so on. However, any damage that is caused is applied to the Banner as a whole. As Banners
+do not have Side or Rear arcs, these do not cause modifiers to the Damage roll.
+
+ION SHIELDS. When fighting in a Banner, Knights align their Ion shields, granting them greater protection as a group than individually. Ion shields are different to void shields;ifa rule refers specifically to void shields, it does not affect ion shields, but ifit refers to Shield saves, it will affect both. Note that, unlike void shields, ion shields can be used against attacks that originate from within 2&quot;.
+If a Banner is hit by a shooting attack, hits are resolved (at Step 5 of the Combat Sequence) as follows:
+• Target&apos;s controlling player makes Ion Shield saves.
+• The attacking player makes Armour rolls for any remaining hits.
+To make an Ion Shield save, look up the Ion Shield level on the Banner&apos;s Command Terminal, which varies depending on the number of Knights currently in the Banner and the Strength of the attack. Then roll a D6 for each hit that was scored. For each dice that equals or beats the Ion Shield level, the hit is discarded. Then for each remaining hit, the attacking player makes an Armour roll as described on page 34.
+
+DAMAGING BANNERS. Direct Hits, Devastating Hits and Critical Hits affect Banners differently to Titans, as follows:
+
+Direct Hit: When a Banner suffers a Direct Hit,it loses a Structure point. If it has no Structure points left to lose, one Knight in the Banner is desttoyed instead.
+
+Devastating Hit: When a Banner suffers a Devastating Hit, it loses two Structure points. If the Banner has one Structure point or no Structure points left when it suffers a Devastating Hit, one Knight in the Banner is destroyed instead.
+
+Critical Hit: When a Banner suffers a Critical Hit, it loses two Structure points, then one Knight in the Banner is destroyed.
+If the Banner has one Structure point or no Structure points j left when it suffers a Critical Hit, two Knights in the Banner are destroyed instead.
+
+When a Knight is destroyed, the controlling player chooses one model to remove. The Banner&apos;s Structure Points marker is then immediately reset to the first hole of the track. If a Targeted Attack destroys a Knight, the attacking player can choose which model to remove instead of the controlling player.
+
+BLAST MARKERS, FLAME TEMPLATES AND AREA EFFECTS. When a Banner is hit by a Blast marker or Flame template, total the number of hits scored on the models in the Banner, then apply that many hits to the Banner as a whole. This also applies to attack~with an area effect - catastrophic reactor overloads, environmental effects and so on.
+
+Shaken Banners
+Each time a Knight is removed from a Banner, the Banner must make a Command check. If it is failed, the Banner is Shaken. It immediately loses any orders and an Order dice showing the Shutdown symbol is placed on its Command Terminal to show that it is Shaken. Shaken Banners subtract 3&quot; from their Speed and will suffer a -1 modifier to all Hit rolls.
+When the Banner is activated in the Issue Orders step of the next Strategy phase, make a Command roll for the Shaken Banner. If it is passed, remove the dice. Otherwise, it stays where it is. In either case, the Banner cannot be issued orders.
+
+</description>
+            </rule>
+          </rules>
+        </category>
+        <category id="891e-879f-d378-e116" name="Stratagem" entryId="b539-a35c-fe3f-9c34" primary="false"/>
+        <category id="6e99-625d-69eb-f35b" name="Allegiance" entryId="2841-67b5-15d0-8908" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>

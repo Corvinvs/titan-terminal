@@ -1,7 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="TitanTerminal.MainPage">
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              
+             x:Class="TitanTerminal.MainPage">
+  <Grid Padding="0,30,0,0">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*" />
+      <RowDefinition Height="10*" />
+    </Grid.RowDefinitions>
+
+    <Label Text="AVAILABLE BATTLEGROUPS" Grid.Row="0" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" />
+        
+    <ListView x:Name="filesList" Grid.Row="1" ItemSelected="FileSelect">
+      <ListView.ItemTemplate> 
+        <DataTemplate> 
+          <TextCell Text="{Binding}" />
+        </DataTemplate> 
+      </ListView.ItemTemplate>
+    </ListView>
+  </Grid>
 </ContentPage>
