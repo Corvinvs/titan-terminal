@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Xml.Linq;
@@ -15,6 +16,9 @@ namespace TitanTerminal.Pages
 
         private XNamespace _nameSpace;
 
+        ObservableCollection<Unit> battleGroupUnits = new ObservableCollection<Unit>();
+        public ObservableCollection<Unit> BattleGroupUnits { get { return battleGroupUnits; } }
+
         public BattleGroup(XDocument battleGroup)
         {
             InitializeComponent();
@@ -23,7 +27,18 @@ namespace TitanTerminal.Pages
 
         async void UnitSelect(object sender, SelectedItemChangedEventArgs args)
         {
+            if (args.SelectedItem == null) return;
 
+            var selectedUnit = unitsList.SelectedItem as Unit;
+            unitsList.SelectedItem = null;
+
+            var categories = selectedUnit.UnitElement.Element(_nameSpace + "categories");
+
+            if(categories.Elements().ToList().Count == 2)
+            {
+                // Open Titan Page
+                await Navigation.PushAsync(new TitanPage(selectedUnit.UnitElement));
+            }
         }
 
         protected override async void OnAppearing()
@@ -48,7 +63,13 @@ namespace TitanTerminal.Pages
             Title = $"{title}{costElement.Attribute("name").Value} {costElement.Attribute("value").Value}";
             var units = GetUnitsList(forceElement);
 
-            unitsList.ItemsSource = units.Select(u => u.Name);
+            foreach(var unit in units)
+            {
+                battleGroupUnits.Add(unit);
+            }
+
+            unitsList.ItemsSource = battleGroupUnits;
+
         }
 
         private IEnumerable<Unit> GetUnitsList(IEnumerable<XElement> forces)

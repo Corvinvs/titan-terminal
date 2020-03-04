@@ -12,10 +12,17 @@
 
     <Label x:Name="battleGroupHeader" Grid.Row="0" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" />
 
-    <ListView x:Name="unitsList" Grid.Row="1" ItemSelected="UnitSelect">
+    <ListView x:Name="unitsList" Grid.Row="1" ItemSelected="UnitSelect" ItemsSource="{Binding BattleGroupUnits}">
       <ListView.ItemTemplate> 
         <DataTemplate> 
-          <TextCell Text="{Binding}" />
+          <ViewCell>
+              <ViewCell.View>
+                  <StackLayout Orientation="Horizontal">
+                      <Label Text="{Binding Name}" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" />
+                      <Label Text="{Binding Cost}" HorizontalOptions="End" VerticalOptions="CenterAndExpand" />
+                  </StackLayout>
+              </ViewCell.View>
+          </ViewCell>
         </DataTemplate> 
       </ListView.ItemTemplate>
     </ListView>

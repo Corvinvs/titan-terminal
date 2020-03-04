@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TitanTerminal.Pages.TitanPage">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <BoxView Color="Gray" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"/>
+        <BoxView Color="Silver" Grid.Column="2" Grid.Row="0" Grid.ColumnSpan="6"/>
+
+        <BoxView Color="DarkGray" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <BoxView Color="Black" Grid.Column="3" Grid.Row="1" Grid.ColumnSpan="5"/>
+        <BoxView Color="Silver" Grid.Column="3" Grid.Row="2" Grid.ColumnSpan="5"/>
+
+        <BoxView Color="Black" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="8"/>
+        <BoxView Color="Black" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="8"/>
+        <BoxView Color="Black" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="8"/>
+
+        <BoxView Color="Black" Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <BoxView Color="Black" Grid.Column="3" Grid.Row="6" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <BoxView Color="Black" Grid.Column="5" Grid.Row="6" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+    </Grid>
+</ContentPage>
