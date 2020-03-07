@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="c746-1fbc-fbff-b688" name="New Roster" battleScribeVersion="2.03" gameSystemId="975a-00f4-df37-b565" gameSystemName="Adeptus Titanicus 2018" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costs>
+    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="300.0"/>
+  </costs>
+  <forces>
+    <force id="f33f-4a20-0a4b-6bc4" name="Battlegroup" entryId="d377-9ed7-0d3e-7f70" catalogueId="7c04-d50d-bc70-52f3" catalogueRevision="2" catalogueName="Battlegroup">
+      <selections>
+        <selection id="6485-f781-7ea7-6e65" name="Reaver Titan" entryId="9992-64af-f770-acd6::9ff1-81bc-203d-620c" number="1" type="model">
+          <profiles>
+            <profile id="9992-64af-f770-acd6::7ff1-9cf5-3d51-6ff7" name="Reaver Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+              <characteristics>
+                <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">6&quot;/9&quot;</characteristic>
+                <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">4+</characteristic>
+                <characteristic name="Ballistic Skill" typeId="f14c-a692-0b4a-c510">3+</characteristic>
+                <characteristic name="Weapon Skill" typeId="935c-7d79-d2fe-dcf8">4+</characteristic>
+                <characteristic name="Manuever" typeId="d9fc-a9ed-b5ab-e97c">2/3</characteristic>
+                <characteristic name="Servitor Clades" typeId="a877-9231-f92a-5538">3</characteristic>
+                <characteristic name="Scale" typeId="5359-4d2b-082b-546a">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="d84d-0844-e5d7-144c" name="Body" entryId="9992-64af-f770-acd6::1dcd-1615-5634-3ac7" number="1" type="upgrade">
+              <profiles>
+                <profile id="9992-64af-f770-acd6::405a-e1d7-49d0-4548" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                  <characteristics>
+                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-13</characteristic>
+                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-16</characteristic>
+                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">17+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="6f61-d6c7-00e1-cdbf" name="1 Yellow Manifold Critical Damage" entryId="9992-64af-f770-acd6::d54e-9a95-cb9a-6618::9e12-5e6a-0b22-56dc" entryGroupId="9992-64af-f770-acd6::d54e-9a95-cb9a-6618::1d49-39ff-979b-f7f0" number="1" type="upgrade">
+                  <rules>
+                    <rule id="9992-64af-f770-acd6::d54e-9a95-cb9a-6618::26a5-f3b8-f951-d4a7::9d86-911d-7d60-3acc" name="Reactor Leak (1)" hidden="false">
+                      <description>The Titan&apos;s reactor containment fields are failing. In each End phase, advance the Titan&apos;s Reactor Status marker a number of times as shown in the brackets.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="8e7b-d2de-ee20-2cb3" name="⦿⦿⦿⦾⦾⦾⦾(3)" entryId="9992-64af-f770-acd6::5a34-3768-ba62-a8ac" entryGroupId="9992-64af-f770-acd6::9ea5-7d31-c03a-5d16" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="9992-64af-f770-acd6::6631-28d9-be4a-840a" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                      <characteristics>
+                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="f83f-c6aa-2be8-6dd4" name="Head" entryId="9992-64af-f770-acd6::e785-b175-8850-4890" number="1" type="upgrade">
+              <profiles>
+                <profile id="9992-64af-f770-acd6::61cc-c41e-f222-a03c" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                  <characteristics>
+                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">10-12</characteristic>
+                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
+                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">15+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="7339-8567-42b0-720c" name="2 Orange Manifold Critical Damage" entryId="9992-64af-f770-acd6::2e25-7009-9f13-e74e::57ca-22ab-6d17-bf18" entryGroupId="9992-64af-f770-acd6::2e25-7009-9f13-e74e::9ba2-12fa-8d22-c505" number="1" type="upgrade">
+                  <rules>
+                    <rule id="9992-64af-f770-acd6::2e25-7009-9f13-e74e::6a59-af3c-490c-df0c::c11a-edbe-0a11-00c8" name="MIU Feedback" hidden="false">
+                      <description>The Mind Impulse Unit has been hit, disrupting the crew&apos;s interface to the manifold. Any command Checks made for the Titan have a -2 modifier.</description>
+                    </rule>
+                    <rule id="9992-64af-f770-acd6::2e25-7009-9f13-e74e::7c3b-7435-128d-8bec::8ca3-6877-6b64-00ef" name="Moderati Wounded" hidden="false">
+                      <description>The Moderatii overseeing the gunnery crews have been hit. Any Hit rolls made for the Titan have a -1 modifier.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="2a9b-ce80-5943-6952" name="⦿⦿⦿⦿⦿⦿(6)" entryId="9992-64af-f770-acd6::d9fc-c438-31f8-0802" entryGroupId="9992-64af-f770-acd6::a049-0f1c-59f2-59f9" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="9992-64af-f770-acd6::7e01-a540-f4a3-79cb" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                      <characteristics>
+                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="0507-0441-86e9-f62a" name="Legs" entryId="9992-64af-f770-acd6::de93-8bdc-dd8d-3c91" number="1" type="upgrade">
+              <profiles>
+                <profile id="9992-64af-f770-acd6::59c9-6941-5ea7-8ecb" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                  <characteristics>
+                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-12</characteristic>
+                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
+                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">15+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="f71a-9cf0-fce2-55a6" name="3 Red Manifold Critical Damage" entryId="9992-64af-f770-acd6::6859-a04d-0179-9ab2::8f94-127b-43d6-ac8a" entryGroupId="9992-64af-f770-acd6::6859-a04d-0179-9ab2::50af-0bab-a322-f02c" number="1" type="upgrade">
+                  <rules>
+                    <rule id="9992-64af-f770-acd6::6859-a04d-0179-9ab2::d8a9-4440-3e2e-7e1c::e8db-6948-589e-2c80" name="Immobilized" hidden="false">
+                      <description>The Titan&apos;s legs and toros are frozen in place. It cannot move or make any turns.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="1dca-b234-f0cd-8073" name="⦿⦿⦿⦿⦿⦿⦾(6)" entryId="9992-64af-f770-acd6::1d84-e2fd-8ea6-9840" entryGroupId="9992-64af-f770-acd6::2736-f5dc-9b2a-8866" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="9992-64af-f770-acd6::1e2f-972b-647e-fe1d" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                      <characteristics>
+                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="6b1c-b686-7fc1-96dc" name="Void Shields" entryId="9992-64af-f770-acd6::ca96-66a7-2466-4553" number="1" type="upgrade">
+              <selections>
+                <selection id="9ad2-8ac3-bffb-eb1c" name="Void Shield (4+) 2 ⦿⦿⦿⦿⦾" entryId="9992-64af-f770-acd6::af60-3449-7734-5ed1::9219-813c-9bc8-e118" entryGroupId="9992-64af-f770-acd6::71a5-9388-870c-25e1" number="1" type="upgrade">
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="c6d5-a18e-7c39-6c51" name="Plasma Reactor" entryId="9992-64af-f770-acd6::5c91-fa9e-ab6b-d54c" number="1" type="upgrade">
+              <selections>
+                <selection id="6b9a-e62f-834e-47cc" name="⦿⦿⦿⦿⦿⦿ Red(6)" entryId="9992-64af-f770-acd6::c886-17e7-e297-38af" entryGroupId="9992-64af-f770-acd6::9bdf-f064-c87f-19ce" number="1" type="upgrade">
+                  <costs>
+                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="d348-267d-6f88-af11" name="Gatling Blaster" entryId="9992-64af-f770-acd6::ffc4-7867-fadc-12d2::aa7a-74f4-180e-3b5e" entryGroupId="9992-64af-f770-acd6::7087-f431-ad06-6061" number="1" type="upgrade">
+              <rules>
+                <rule id="aa52-c7ee-35dc-777b" name="Carapace" hidden="false">
+                  <description>Some Titans carry weapons high up on their carapace usually long range support weapons with the firepower to level a hab-block in moments. Carapace weapons cannot target units that are within a number of inches equal to the firing unit’s Scale, unless the target is at least the same Scale as the attacker. For example, a Reaver (Scale 8) cannot attack units within 8&quot; with its carapace weapon, unless the target unit is of at least Scale 8.</description>
+                </rule>
+                <rule id="2be6-663d-d95b-9992" name="Ordnance" hidden="false">
+                  <description>Ordnance weapons fire high calibre explosive shells which can cause significant damage to an unshielded target. When attacking with an Ordnance weapon, Armour rolls of 1 can be re-rolled.</description>
+                </rule>
+                <rule id="bd3b-f56e-1b14-06cc::b7c8-dd3a-9b0d-730c" name="Dice" hidden="false">
+                  <description>A weapon’s Dice value shows how many dice are rolled when attacking with it. In essence, it is a representation of how rapidly the weapon can fire - a gun with Dice 6 fires a lot more shots in one go than one with Dice 1.</description>
+                </rule>
+                <rule id="9db1-0abc-cb8a-a76a::099f-b1dd-9513-5d1d" name="Firing Arc" hidden="false">
+                  <description>A weapon’s firing arc (explained on page 26) is represented by a graphic. The graphic assumes that the Titan is facing towards the top of the Command Terminal - most weapons (particularly arm-mounted ones) generally have the Titan’s Front arc as their firing arc.</description>
+                </rule>
+                <rule id="6b05-e06d-b87f-65f8::585e-acad-2307-042d" name="Range and Accuracy (ACC)" hidden="false">
+                  <description>This shows the weapon’s range in inches. Weapons have two ranges: Short and Long. These are primarily used to determine the Accuracy modifier (which affects any Hit rolls made for the weapon), but might also be referenced by other in-game effects. </description>
+                </rule>
+                <rule id="ed85-4ab2-5008-c3fd::26e1-ebdc-e470-dd28" name="Strength (STR)" hidden="false">
+                  <description>A weapon’s Strength is a measure of its ability to punch through a target’s armour. The higher a weapon’s Strength, the more likely its attack will inflict damage on a successful hit.</description>
+                </rule>
+                <rule id="bebb-1dfd-dc9d-6250::c491-319b-b9b1-adac" name="Weapon Characteristics" hidden="false">
+                  <description>A unit’s Command Terminal has a number of spaces for Weapon cards, which must be selected before the start of the battle. Each Weapon card shows which Class of Titan it can be chosen for, and which slot(s) on the Command Terminal it can occupy.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="9992-64af-f770-acd6::ffc4-7867-fadc-12d2::7296-c9a2-e9db-34b5" name="Gatling Blasters" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">6</characteristic>
+                    <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">5</characteristic>
+                    <characteristic name="Short Range" typeId="8320-f9a1-68a0-47c2">8&quot;</characteristic>
+                    <characteristic name="Short Accuracy" typeId="68ee-0c9a-e4c2-4a34">+1</characteristic>
+                    <characteristic name="Long Range" typeId="bdee-aca0-6c3e-cc27">24&quot;</characteristic>
+                    <characteristic name="Long Accuracy" typeId="98c1-7f92-4b2c-8d4c"/>
+                    <characteristic name="Disabled Roll" typeId="02bc-8716-7743-7b16">10+</characteristic>
+                    <characteristic name="Blast" typeId="f14d-88df-2e41-f0b4"/>
+                    <characteristic name="Limited" typeId="b21f-61e9-4f0d-88e6"/>
+                    <characteristic name="Trait" typeId="bcd4-cb45-5d53-b7d8"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="15.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="54ab-b020-4386-d8bb" name="Carapace" entryId="33e1-d3ed-4420-3e22" primary="true"/>
+                <category id="a77d-01a8-8a78-eb69" name="Arc: Front" entryId="6bfc-b62c-823a-5a29" primary="false"/>
+                <category id="69a4-9eed-ac76-8ed7" name="Ordnance" entryId="5ad8-0ca8-4bb7-83b6" primary="false"/>
+                <category id="c0c7-d177-7d78-2a07" name="Weapon" entryId="8faf-9e14-9676-2327" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="ed6b-36cb-be09-9843" name="Laser Blaster" entryId="9992-64af-f770-acd6::834c-1d9b-ca95-b3de::375a-7b78-8edd-71d5" entryGroupId="9992-64af-f770-acd6::7087-f431-ad06-6061" number="1" type="upgrade">
+              <rules>
+                <rule id="ceca-05e5-c98b-fd59" name="Shieldbane" hidden="false">
+                  <description>These weapons are capable of tearing clean through even the largest void shields. Any Shield saves made against Shieldbane weapons have a -1 modifier.</description>
+                </rule>
+                <rule id="b8dd-e91b-501f-2666" name="Draining" hidden="false">
+                  <description>Draining weapons put a great strain on the plasma reactor of the Titan that fires them. Before attacking with a Draining weapon, the Titan’s reactor must be pushed. A unit that does not have a plasma reactor cannot use a Draining weapon. Some weapons have (Draining) after another trait - this means that they do not have the trait by default, but if they push the plasma reactor before attacking with the weapon, it gains that trait for the duration of the attack.</description>
+                </rule>
+                <rule id="bd3b-f56e-1b14-06cc::b7c8-dd3a-9b0d-730c" name="Dice" hidden="false">
+                  <description>A weapon’s Dice value shows how many dice are rolled when attacking with it. In essence, it is a representation of how rapidly the weapon can fire - a gun with Dice 6 fires a lot more shots in one go than one with Dice 1.</description>
+                </rule>
+                <rule id="9db1-0abc-cb8a-a76a::099f-b1dd-9513-5d1d" name="Firing Arc" hidden="false">
+                  <description>A weapon’s firing arc (explained on page 26) is represented by a graphic. The graphic assumes that the Titan is facing towards the top of the Command Terminal - most weapons (particularly arm-mounted ones) generally have the Titan’s Front arc as their firing arc.</description>
+                </rule>
+                <rule id="6b05-e06d-b87f-65f8::585e-acad-2307-042d" name="Range and Accuracy (ACC)" hidden="false">
+                  <description>This shows the weapon’s range in inches. Weapons have two ranges: Short and Long. These are primarily used to determine the Accuracy modifier (which affects any Hit rolls made for the weapon), but might also be referenced by other in-game effects. </description>
+                </rule>
+                <rule id="ed85-4ab2-5008-c3fd::26e1-ebdc-e470-dd28" name="Strength (STR)" hidden="false">
+                  <description>A weapon’s Strength is a measure of its ability to punch through a target’s armour. The higher a weapon’s Strength, the more likely its attack will inflict damage on a successful hit.</description>
+                </rule>
+                <rule id="bebb-1dfd-dc9d-6250::c491-319b-b9b1-adac" name="Weapon Characteristics" hidden="false">
+                  <description>A unit’s Command Terminal has a number of spaces for Weapon cards, which must be selected before the start of the battle. Each Weapon card shows which Class of Titan it can be chosen for, and which slot(s) on the Command Terminal it can occupy.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="9992-64af-f770-acd6::834c-1d9b-ca95-b3de::b62c-bcc4-d519-bc32" name="Laser Blaster" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">3</characteristic>
+                    <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
+                    <characteristic name="Short Range" typeId="8320-f9a1-68a0-47c2">16&quot;</characteristic>
+                    <characteristic name="Short Accuracy" typeId="68ee-0c9a-e4c2-4a34"/>
+                    <characteristic name="Long Range" typeId="bdee-aca0-6c3e-cc27">32&quot;</characteristic>
+                    <characteristic name="Long Accuracy" typeId="98c1-7f92-4b2c-8d4c">-1</characteristic>
+                    <characteristic name="Disabled Roll" typeId="02bc-8716-7743-7b16">10+</characteristic>
+                    <characteristic name="Blast" typeId="f14d-88df-2e41-f0b4"/>
+                    <characteristic name="Limited" typeId="b21f-61e9-4f0d-88e6"/>
+                    <characteristic name="Trait" typeId="bcd4-cb45-5d53-b7d8"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="25.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="edfc-a790-0a15-3c11" name="Arm" entryId="44b5-8770-ea8e-2401" primary="true"/>
+                <category id="0180-9995-a75b-b9ca" name="Shieldbane" entryId="87c1-d39e-fbdf-1ae7" primary="false"/>
+                <category id="e89b-29cc-816c-68ae" name="Draining" entryId="8ab9-d312-06e4-8ba0" primary="false"/>
+                <category id="1682-3460-9976-1e19" name="Arc: Front" entryId="6bfc-b62c-823a-5a29" primary="false"/>
+                <category id="019a-ae72-1b08-98b5" name="Weapon" entryId="8faf-9e14-9676-2327" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="7f72-2d16-7ff3-c719" name="Apocalypse Missile Launcher" entryId="9992-64af-f770-acd6::1ebf-4601-0b5e-b765::54d9-e1d5-30b0-c357" entryGroupId="9992-64af-f770-acd6::27cf-b4d5-20b6-9032" number="1" type="upgrade">
+              <rules>
+                <rule id="aa52-c7ee-35dc-777b" name="Carapace" hidden="false">
+                  <description>Some Titans carry weapons high up on their carapace usually long range support weapons with the firepower to level a hab-block in moments. Carapace weapons cannot target units that are within a number of inches equal to the firing unit’s Scale, unless the target is at least the same Scale as the attacker. For example, a Reaver (Scale 8) cannot attack units within 8&quot; with its carapace weapon, unless the target unit is of at least Scale 8.</description>
+                </rule>
+                <rule id="ac4a-d92e-dac5-bdc7" name="Barrage" hidden="false">
+                  <description>Barrage weapons can fire indirectly at a target to which they do not have line of sight, as long as the target is still within range and arc. Firing indirectly confers a -z modifier on the Hit roll.</description>
+                </rule>
+                <rule id="d893-6e8f-dc10-0f75" name="Paired" hidden="false">
+                  <description>Sometimes, a Titan will carry a pair of weapons, slaved to fire together at the same target. Check the line of sight from each of the weapons separately; if only one has line of sight, the weapon’s Dice value is halved. If the target is obscured from the point of view of only one weapon (see page 33), half of the dice rolled suffer the To Hit modifier for an obscured target.</description>
+                </rule>
+                <rule id="bd3b-f56e-1b14-06cc::b7c8-dd3a-9b0d-730c" name="Dice" hidden="false">
+                  <description>A weapon’s Dice value shows how many dice are rolled when attacking with it. In essence, it is a representation of how rapidly the weapon can fire - a gun with Dice 6 fires a lot more shots in one go than one with Dice 1.</description>
+                </rule>
+                <rule id="9db1-0abc-cb8a-a76a::099f-b1dd-9513-5d1d" name="Firing Arc" hidden="false">
+                  <description>A weapon’s firing arc (explained on page 26) is represented by a graphic. The graphic assumes that the Titan is facing towards the top of the Command Terminal - most weapons (particularly arm-mounted ones) generally have the Titan’s Front arc as their firing arc.</description>
+                </rule>
+                <rule id="6b05-e06d-b87f-65f8::585e-acad-2307-042d" name="Range and Accuracy (ACC)" hidden="false">
+                  <description>This shows the weapon’s range in inches. Weapons have two ranges: Short and Long. These are primarily used to determine the Accuracy modifier (which affects any Hit rolls made for the weapon), but might also be referenced by other in-game effects. </description>
+                </rule>
+                <rule id="ed85-4ab2-5008-c3fd::26e1-ebdc-e470-dd28" name="Strength (STR)" hidden="false">
+                  <description>A weapon’s Strength is a measure of its ability to punch through a target’s armour. The higher a weapon’s Strength, the more likely its attack will inflict damage on a successful hit.</description>
+                </rule>
+                <rule id="bebb-1dfd-dc9d-6250::c491-319b-b9b1-adac" name="Weapon Characteristics" hidden="false">
+                  <description>A unit’s Command Terminal has a number of spaces for Weapon cards, which must be selected before the start of the battle. Each Weapon card shows which Class of Titan it can be chosen for, and which slot(s) on the Command Terminal it can occupy.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="9992-64af-f770-acd6::1ebf-4601-0b5e-b765::531c-4242-6420-d01e" name="Apocalypse Missile Launcher" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">5</characteristic>
+                    <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
+                    <characteristic name="Short Range" typeId="8320-f9a1-68a0-47c2">30&quot;</characteristic>
+                    <characteristic name="Short Accuracy" typeId="68ee-0c9a-e4c2-4a34"/>
+                    <characteristic name="Long Range" typeId="bdee-aca0-6c3e-cc27">120&quot;</characteristic>
+                    <characteristic name="Long Accuracy" typeId="98c1-7f92-4b2c-8d4c">+1</characteristic>
+                    <characteristic name="Disabled Roll" typeId="02bc-8716-7743-7b16">10+</characteristic>
+                    <characteristic name="Blast" typeId="f14d-88df-2e41-f0b4"/>
+                    <characteristic name="Limited" typeId="b21f-61e9-4f0d-88e6"/>
+                    <characteristic name="Trait" typeId="bcd4-cb45-5d53-b7d8"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="10.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="5844-c5bb-5e20-1a60" name="Carapace" entryId="33e1-d3ed-4420-3e22" primary="true"/>
+                <category id="d4fc-ab09-2202-5964" name="Barrage" entryId="a499-678c-ed35-c0e8" primary="false"/>
+                <category id="07a5-622a-e5eb-e45d" name="Arc: Corridor" entryId="8e5a-4544-df39-4e4c" primary="false"/>
+                <category id="f3c3-1f3b-5bce-b352" name="Paired" entryId="b8e5-fe94-7842-e1b4" primary="false"/>
+                <category id="9ee6-7c57-e714-9648" name="Arc: 360 Degree" entryId="ed82-caea-5092-bf7e" primary="false"/>
+                <category id="5271-f992-d1a5-2c64" name="Weapon" entryId="8faf-9e14-9676-2327" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="250.0"/>
+            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="ffc8-3d7b-e20c-2d31" name="Titan" entryId="3f71-3a59-3b75-4ecf" primary="false"/>
+            <category id="e018-da68-72b5-a8c8" name="ReaverTitan" entryId="d36f-5e44-2150-3428" primary="false"/>
+            <category id="9aa5-4eb8-cd19-d9b0" name="Titan" entryId="3f71-3a59-3b75-4ecf" primary="true"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="975a-00f4-pubN65537" name="Adeptus Titanicus 2018"/>
+        <publication id="975a-00f4-pubN89746" name="Doom Of Molech"/>
+        <publication id="25e8-c9ce-9330-c53b" name="Titandeath Errata v1.0"/>
+        <publication id="7c04-d50d-pubN65537" name="Adeptus Titanicus 2018"/>
+        <publication id="975a-00f4-pubN89033" name="White Dwarf: Feb 2019"/>
+        <publication id="975a-00f4-pubN87630" name="Titandeath"/>
+        <publication id="7236-e1d8-c886-f5fd" name="Adeptus Titanicus 2018 Errata v1.0"/>
+      </publications>
+      <categories>
+        <category id="9943-ce6b-a03a-38f1" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="4bb3-6de5-277a-469e" name="Maniple" entryId="6982-2d18-55cb-61e5" primary="false"/>
+        <category id="a50c-52b3-6de0-240a" name="Titan" entryId="3f71-3a59-3b75-4ecf" primary="false"/>
+        <category id="3fbc-4e73-6a08-2b35" name="Banner" entryId="917a-77ef-30e4-b812" primary="false">
+          <rules>
+            <rule id="59fb-73c8-478f-68c9" name="Banner" publicationId="975a-00f4-pubN65537" hidden="false">
+              <description>Composition of a Banner
+A Banner is made up of a number of Knights acting as a single unit. The reverse of a Banner&apos;s Command Terminal describes its exact composition, along with any options. When a Banner is activated, all of the Knights within it act; individual Knights cannot be activated.
+
+Banners in the Movement Phase
+When a Banner is activated in the Movement phase, each Knight can move up to the Banner&apos;s Speed characteristic in inches. Knights are considered to have a 360° Front arc, and can make
+as many turns as they wish as they move. When the Banner has finished moving, each must be within 3&quot; of another Knight in the Banner - Knight Banners operate in much closer proximity than Titan Squadrons, especially when facing larger war engines. If any of the Knights are outside of this range, the Banner is Shaken - see page 47.
+
+Banners in the Combat Phase
+When a Banner is activated in the Combat phase, it follows the Combat Sequence as if it were a Titan. Instead of attacking with each Knight individually, make an attack with each different weapon in tum. For each weapon, multiply the Dice characteristic by the number of Knights in the Banner that are equipped with that weapon, and which are within range and line of sight of the target. For example,ifa Banner has two Knights armed with rapid fire battle cannon (Dice 2) and one Knight armed with a thermal cannon (Dicer),it would roll four dice when attacking with the battle cannon and one dice when attacking with the thermal cannon.IfsomeKnightsarewithin2&quot; ofthetargetandothersare further away, roll using Ballistic Skill for those that are further, and Weapon Skill for those that are within 2&quot;.
+
+When determining line of sight for a Banner, Knights within the Banner do not block the view of others. Also, remember that Knights have a 360° Front arc,so their weapons can fire in any direction. All of the weapons in a Banner must be fired at the same target, unless the Banner has Split Fire orders, at which point each weapon can be directed at a different target.
+
+Banners cannot make Smash Attacks.
+
+ATTACKING BANNERS. When attacking a Banner, pick a single Knight in the Banner to be the target of the attack. This model is used for purposes ofrange,line ofsight and so on. However, any damage that is caused is applied to the Banner as a whole. As Banners
+do not have Side or Rear arcs, these do not cause modifiers to the Damage roll.
+
+ION SHIELDS. When fighting in a Banner, Knights align their Ion shields, granting them greater protection as a group than individually. Ion shields are different to void shields;ifa rule refers specifically to void shields, it does not affect ion shields, but ifit refers to Shield saves, it will affect both. Note that, unlike void shields, ion shields can be used against attacks that originate from within 2&quot;.
+If a Banner is hit by a shooting attack, hits are resolved (at Step 5 of the Combat Sequence) as follows:
+• Target&apos;s controlling player makes Ion Shield saves.
+• The attacking player makes Armour rolls for any remaining hits.
+To make an Ion Shield save, look up the Ion Shield level on the Banner&apos;s Command Terminal, which varies depending on the number of Knights currently in the Banner and the Strength of the attack. Then roll a D6 for each hit that was scored. For each dice that equals or beats the Ion Shield level, the hit is discarded. Then for each remaining hit, the attacking player makes an Armour roll as described on page 34.
+
+DAMAGING BANNERS. Direct Hits, Devastating Hits and Critical Hits affect Banners differently to Titans, as follows:
+
+Direct Hit: When a Banner suffers a Direct Hit,it loses a Structure point. If it has no Structure points left to lose, one Knight in the Banner is desttoyed instead.
+
+Devastating Hit: When a Banner suffers a Devastating Hit, it loses two Structure points. If the Banner has one Structure point or no Structure points left when it suffers a Devastating Hit, one Knight in the Banner is destroyed instead.
+
+Critical Hit: When a Banner suffers a Critical Hit, it loses two Structure points, then one Knight in the Banner is destroyed.
+If the Banner has one Structure point or no Structure points j left when it suffers a Critical Hit, two Knights in the Banner are destroyed instead.
+
+When a Knight is destroyed, the controlling player chooses one model to remove. The Banner&apos;s Structure Points marker is then immediately reset to the first hole of the track. If a Targeted Attack destroys a Knight, the attacking player can choose which model to remove instead of the controlling player.
+
+BLAST MARKERS, FLAME TEMPLATES AND AREA EFFECTS. When a Banner is hit by a Blast marker or Flame template, total the number of hits scored on the models in the Banner, then apply that many hits to the Banner as a whole. This also applies to attack~with an area effect - catastrophic reactor overloads, environmental effects and so on.
+
+Shaken Banners
+Each time a Knight is removed from a Banner, the Banner must make a Command check. If it is failed, the Banner is Shaken. It immediately loses any orders and an Order dice showing the Shutdown symbol is placed on its Command Terminal to show that it is Shaken. Shaken Banners subtract 3&quot; from their Speed and will suffer a -1 modifier to all Hit rolls.
+When the Banner is activated in the Issue Orders step of the next Strategy phase, make a Command roll for the Shaken Banner. If it is passed, remove the dice. Otherwise, it stays where it is. In either case, the Banner cannot be issued orders.
+
+</description>
+            </rule>
+          </rules>
+        </category>
+        <category id="2a57-61de-146f-7214" name="Stratagem" entryId="b539-a35c-fe3f-9c34" primary="false"/>
+        <category id="80e8-41a0-7c82-6e9f" name="Allegiance" entryId="2841-67b5-15d0-8908" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>

@@ -21,12 +21,34 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
+        <!-- Orders -->
         <BoxView Color="Gray" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"/>
+        <!-- Title and Header -->
         <BoxView Color="Silver" Grid.Column="2" Grid.Row="0" Grid.ColumnSpan="6"/>
 
+        <!-- Profile -->
         <BoxView Color="DarkGray" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+
         <BoxView Color="Black" Grid.Column="3" Grid.Row="1" Grid.ColumnSpan="5"/>
+
+        <!-- Plasma and Shields -->
         <BoxView Color="Silver" Grid.Column="3" Grid.Row="2" Grid.ColumnSpan="5"/>
+        <Grid  Grid.Column="3" Grid.Row="2" Grid.ColumnSpan="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Label Grid.Column="0" Grid.Row="0" Text="PLASMA REACTOR" FontSize="Micro" VerticalOptions="Center" HorizontalOptions="Start" />
+            <Label x:Name="PlasmaLabel" Grid.Column="1" Grid.Row="0" Text="{Binding TitanPlasma}" FontSize="Micro" VerticalOptions="Center" HorizontalOptions="Start" />
+
+            <Label Grid.Column="0" Grid.Row="1" Text="VOID SHIELD" FontSize="Micro" VerticalOptions="Center" HorizontalOptions="Start"/>
+
+        </Grid>
 
         <BoxView Color="Black" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="8"/>
         <BoxView Color="Black" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="8"/>

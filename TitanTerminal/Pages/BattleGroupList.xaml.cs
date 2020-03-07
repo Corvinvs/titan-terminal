@@ -40,7 +40,6 @@ namespace TitanTerminal.Pages
         // обновление списка файлов
         async Task UpdateFileList()
         {
-            var q = await DependencyService.Get<IFileHelper>().GetFilesAsync();
             // получаем все файлы
             filesList.ItemsSource = await DependencyService.Get<IFileHelper>().GetFilesAsync();
             // снимаем выделение

@@ -14,6 +14,16 @@ namespace TitanTerminal.Pages
     {
         private readonly XDocument _battleGroup;
 
+        private List<TitanPage> _titanPages = new List<TitanPage>();
+
+        public List<TitanPage> TitanPages
+        {
+            get
+            {
+                return _titanPages;
+            }
+        }
+
         private XNamespace _nameSpace;
 
         ObservableCollection<Unit> battleGroupUnits = new ObservableCollection<Unit>();
@@ -33,12 +43,13 @@ namespace TitanTerminal.Pages
             unitsList.SelectedItem = null;
 
             var categories = selectedUnit.UnitElement.Element(_nameSpace + "categories");
-
-            if(categories.Elements().ToList().Count == 2)
-            {
+            var q = categories.Elements().ToList();
+//            if (categories.Elements().ToList().Count == 2)
+//            {
+                var selectedPage = _titanPages.SingleOrDefault(p => p.TitanElement == selectedUnit.UnitElement);
                 // Open Titan Page
-                await Navigation.PushAsync(new TitanPage(selectedUnit.UnitElement));
-            }
+                await Navigation.PushAsync(selectedPage);
+//            }
         }
 
         protected override async void OnAppearing()
@@ -50,25 +61,30 @@ namespace TitanTerminal.Pages
         // Processing BattleGroup
         private void ProcessingBattleGroup()
         {
-            var root = _battleGroup.Root;
-            var title = root.Attribute("name").Value;
-            _nameSpace = root.Name.Namespace;
-            var costElement = root.Element(_nameSpace + "costs").Element(_nameSpace + "cost");
-            var forceElement = root
-                .Element(_nameSpace + "forces")
-                .Element(_nameSpace + "force")
-                .Element(_nameSpace + "selections")
-                .Elements();
-
-            Title = $"{title}{costElement.Attribute("name").Value} {costElement.Attribute("value").Value}";
-            var units = GetUnitsList(forceElement);
-
-            foreach(var unit in units)
+            // Fill list only for first page appearing
+            if (_titanPages.Count == 0 )
             {
-                battleGroupUnits.Add(unit);
-            }
+                var root = _battleGroup.Root;
+                var title = root.Attribute("name").Value;
+                _nameSpace = root.Name.Namespace;
+                var costElement = root.Element(_nameSpace + "costs").Element(_nameSpace + "cost");
+                var forceElement = root
+                    .Element(_nameSpace + "forces")
+                    .Element(_nameSpace + "force")
+                    .Element(_nameSpace + "selections")
+                    .Elements();
 
-            unitsList.ItemsSource = battleGroupUnits;
+                Title = $"{title}{costElement.Attribute("name").Value} {costElement.Attribute("value").Value}";
+                var units = GetUnitsList(forceElement);
+
+                foreach (var unit in units)
+                {
+                    battleGroupUnits.Add(unit);
+                    _titanPages.Add(new TitanPage(unit.UnitElement));
+                }
+
+                unitsList.ItemsSource = battleGroupUnits;
+            }
 
         }
 

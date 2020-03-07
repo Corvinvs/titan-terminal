@@ -66,6 +66,8 @@
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FileHelper.cs" />
+    <None Include="TestData\3.ros" />
+    <None Include="TestData\3.xml" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
